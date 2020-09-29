@@ -1,0 +1,764 @@
+2020-08-28 19:09:33,602 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-08-28 19:09:33,644 INFO org.springframework.boot.StartupInfoLogger [main] Starting MmSpringbootApplicationTests on dell-Inspiron-3576 with PID 23309 (started by andrew in /home/andrew/IdeaProjects/mm-springboot/application)
+2020-08-28 19:09:33,646 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-08-28 19:09:34,228 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-28 19:09:34,295 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 62ms. Found 9 JPA repository interfaces.
+2020-08-28 19:09:34,790 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-28 19:09:34,801 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-28 19:09:34,963 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-28 19:09:35,013 INFO com.realestate.bootstrap.FacilityImageBootstrap [main] New instance of FacilityImageBootstrap created.
+2020-08-28 19:09:35,015 INFO com.realestate.bootstrap.RealEstateAgensyBootstrap [main] New instance of RealEstateAgensyBootstrap created.
+2020-08-28 19:09:35,019 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-28 19:09:35,024 INFO com.realestate.services.implementation.AddressServiceImpl [main] New instance of AddressServiceImpl created
+2020-08-28 19:09:35,040 INFO com.realestate.controllers.AddressController [main] New instance of AddressController created.
+2020-08-28 19:09:35,049 INFO com.realestate.services.implementation.ApartmentServiceImpl [main] New instance of ApartmentServiceImpl created
+2020-08-28 19:09:35,067 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-28 19:09:35,075 INFO com.realestate.services.implementation.FacilityServiceImpl [main] New instance of FacilityServiceImpl created
+2020-08-28 19:09:35,077 INFO com.realestate.services.implementation.ClientServiceImpl [main] New instance of ClientServiceImpl created
+2020-08-28 19:09:35,084 INFO com.realestate.controllers.ApartmentController [main] New instance of ApartmentController created.
+2020-08-28 19:09:35,087 INFO com.realestate.services.implementation.BasementServiceImpl [main] New instance of BasementServiceImpl created
+2020-08-28 19:09:35,094 INFO com.realestate.controllers.BasementController [main] New instance of BasementController created.
+2020-08-28 19:09:35,097 INFO com.realestate.services.implementation.RealEstateAgentServiceImpl [main] New instance of RealEstateAgentServiceImpl created
+2020-08-28 19:09:35,103 INFO com.realestate.controllers.ClientController [main] New instance of ClientController created.
+2020-08-28 19:09:35,109 INFO com.realestate.services.implementation.MappingServiceImpl [main] New instance of MappingServiceImpl created
+2020-08-28 19:09:35,111 INFO com.realestate.controllers.FacilityController [main] New instance of FacilityController created.
+2020-08-28 19:09:35,114 INFO com.realestate.services.implementation.GarageServiceImpl [main] New instance of GarageServiceImpl created
+2020-08-28 19:09:35,120 INFO com.realestate.controllers.GarageController [main] New instance of GarageController created.
+2020-08-28 19:09:35,123 INFO com.realestate.services.implementation.HouseServiceImpl [main] New instance of HouseServiceImpl created
+2020-08-28 19:09:35,131 INFO com.realestate.controllers.HouseController [main] New instance of HouseController created.
+2020-08-28 19:09:35,135 INFO com.realestate.controllers.RealEstateAgentController [main] New instance of RealEstateAgentController created.
+2020-08-28 19:09:35,138 INFO com.realestate.services.implementation.StorageServiceImpl [main] New instance of StorageServiceImpl created
+2020-08-28 19:09:35,146 INFO com.realestate.controllers.StorageController [main] New instance of StorageController created.
+2020-08-28 19:09:35,215 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-28 19:09:35,353 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-28 19:09:35,614 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-08-28 19:09:36,006 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-08-28 19:09:36,366 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-28 19:09:36,371 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-28 19:09:36,902 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-08-28 19:09:37,021 INFO org.springframework.boot.StartupInfoLogger [main] Started MmSpringbootApplicationTests in 3.638 seconds (JVM running for 4.42)
+2020-08-28 19:09:37,148 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-28 19:09:37,148 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-28 19:09:37,149 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] SQL Error: 90121, SQLState: 90121
+2020-08-28 19:09:37,150 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-28 19:09:37,150 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] SQL Error: 90121, SQLState: 90121
+2020-08-28 19:09:37,150 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-28 19:09:37,150 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [SpringContextShutdownHook] Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-08-28 19:09:37,150 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-28 19:09:37,151 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-28 19:09:37,153 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-28 20:38:11,767 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-08-28 20:38:11,787 INFO org.springframework.boot.StartupInfoLogger [main] Starting MmSpringbootApplicationTests on dell-Inspiron-3576 with PID 26193 (started by andrew in /home/andrew/IdeaProjects/mm-springboot/application)
+2020-08-28 20:38:11,791 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-08-28 20:38:12,360 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-28 20:38:12,437 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71ms. Found 9 JPA repository interfaces.
+2020-08-28 20:38:12,889 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-28 20:38:12,901 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-28 20:38:13,071 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-28 20:38:13,129 INFO com.realestate.bootstrap.FacilityImageBootstrap [main] New instance of FacilityImageBootstrap created.
+2020-08-28 20:38:13,132 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-28 20:38:13,132 INFO com.realestate.bootstrap.RealEstateAgensyBootstrap [main] New instance of RealEstateAgensyBootstrap created.
+2020-08-28 20:38:13,141 INFO com.realestate.services.implementation.AddressServiceImpl [main] New instance of AddressServiceImpl created
+2020-08-28 20:38:13,157 INFO com.realestate.controllers.AddressController [main] New instance of AddressController created.
+2020-08-28 20:38:13,165 INFO com.realestate.services.implementation.ApartmentServiceImpl [main] New instance of ApartmentServiceImpl created
+2020-08-28 20:38:13,181 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-28 20:38:13,189 INFO com.realestate.services.implementation.FacilityServiceImpl [main] New instance of FacilityServiceImpl created
+2020-08-28 20:38:13,191 INFO com.realestate.services.implementation.ClientServiceImpl [main] New instance of ClientServiceImpl created
+2020-08-28 20:38:13,201 INFO com.realestate.controllers.ApartmentController [main] New instance of ApartmentController created.
+2020-08-28 20:38:13,205 INFO com.realestate.services.implementation.BasementServiceImpl [main] New instance of BasementServiceImpl created
+2020-08-28 20:38:13,214 INFO com.realestate.controllers.BasementController [main] New instance of BasementController created.
+2020-08-28 20:38:13,217 INFO com.realestate.services.implementation.RealEstateAgentServiceImpl [main] New instance of RealEstateAgentServiceImpl created
+2020-08-28 20:38:13,225 INFO com.realestate.controllers.ClientController [main] New instance of ClientController created.
+2020-08-28 20:38:13,232 INFO com.realestate.services.implementation.MappingServiceImpl [main] New instance of MappingServiceImpl created
+2020-08-28 20:38:13,234 INFO com.realestate.controllers.FacilityController [main] New instance of FacilityController created.
+2020-08-28 20:38:13,238 INFO com.realestate.services.implementation.GarageServiceImpl [main] New instance of GarageServiceImpl created
+2020-08-28 20:38:13,246 INFO com.realestate.controllers.GarageController [main] New instance of GarageController created.
+2020-08-28 20:38:13,249 INFO com.realestate.services.implementation.HouseServiceImpl [main] New instance of HouseServiceImpl created
+2020-08-28 20:38:13,258 INFO com.realestate.controllers.HouseController [main] New instance of HouseController created.
+2020-08-28 20:38:13,261 INFO com.realestate.controllers.RealEstateAgentController [main] New instance of RealEstateAgentController created.
+2020-08-28 20:38:13,264 INFO com.realestate.services.implementation.StorageServiceImpl [main] New instance of StorageServiceImpl created
+2020-08-28 20:38:13,272 INFO com.realestate.controllers.StorageController [main] New instance of StorageController created.
+2020-08-28 20:38:13,323 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-28 20:38:13,457 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-28 20:38:13,771 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-08-28 20:38:14,117 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-08-28 20:38:14,442 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-28 20:38:14,448 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-28 20:38:14,943 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-08-28 20:38:15,067 INFO org.springframework.boot.StartupInfoLogger [main] Started MmSpringbootApplicationTests in 3.539 seconds (JVM running for 4.275)
+2020-08-28 20:38:15,190 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-28 20:38:15,190 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-28 20:38:15,191 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] SQL Error: 90121, SQLState: 90121
+2020-08-28 20:38:15,192 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-28 20:38:15,192 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] SQL Error: 90121, SQLState: 90121
+2020-08-28 20:38:15,192 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-28 20:38:15,193 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [SpringContextShutdownHook] Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-08-28 20:38:15,193 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-28 20:38:15,193 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-28 20:38:15,197 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-28 21:06:47,931 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-08-28 21:06:47,949 INFO org.springframework.boot.StartupInfoLogger [main] Starting MmSpringbootApplicationTests on dell-Inspiron-3576 with PID 27620 (started by andrew in /home/andrew/IdeaProjects/mm-springboot/application)
+2020-08-28 21:06:47,951 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-08-28 21:06:48,536 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-28 21:06:48,638 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 95ms. Found 9 JPA repository interfaces.
+2020-08-28 21:06:49,055 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-28 21:06:49,066 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-28 21:06:49,237 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-28 21:06:49,288 INFO com.realestate.bootstrap.FacilityImageBootstrap [main] New instance of FacilityImageBootstrap created.
+2020-08-28 21:06:49,291 INFO com.realestate.bootstrap.RealEstateAgensyBootstrap [main] New instance of RealEstateAgensyBootstrap created.
+2020-08-28 21:06:49,296 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-28 21:06:49,300 INFO com.realestate.services.implementation.AddressServiceImpl [main] New instance of AddressServiceImpl created
+2020-08-28 21:06:49,317 INFO com.realestate.controllers.AddressController [main] New instance of AddressController created.
+2020-08-28 21:06:49,329 INFO com.realestate.services.implementation.ApartmentServiceImpl [main] New instance of ApartmentServiceImpl created
+2020-08-28 21:06:49,348 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-28 21:06:49,363 INFO com.realestate.services.implementation.FacilityServiceImpl [main] New instance of FacilityServiceImpl created
+2020-08-28 21:06:49,366 INFO com.realestate.services.implementation.ClientServiceImpl [main] New instance of ClientServiceImpl created
+2020-08-28 21:06:49,374 INFO com.realestate.controllers.ApartmentController [main] New instance of ApartmentController created.
+2020-08-28 21:06:49,377 INFO com.realestate.services.implementation.BasementServiceImpl [main] New instance of BasementServiceImpl created
+2020-08-28 21:06:49,384 INFO com.realestate.controllers.BasementController [main] New instance of BasementController created.
+2020-08-28 21:06:49,386 INFO com.realestate.services.implementation.RealEstateAgentServiceImpl [main] New instance of RealEstateAgentServiceImpl created
+2020-08-28 21:06:49,393 INFO com.realestate.controllers.ClientController [main] New instance of ClientController created.
+2020-08-28 21:06:49,399 INFO com.realestate.services.implementation.MappingServiceImpl [main] New instance of MappingServiceImpl created
+2020-08-28 21:06:49,401 INFO com.realestate.controllers.FacilityController [main] New instance of FacilityController created.
+2020-08-28 21:06:49,403 INFO com.realestate.services.implementation.GarageServiceImpl [main] New instance of GarageServiceImpl created
+2020-08-28 21:06:49,410 INFO com.realestate.controllers.GarageController [main] New instance of GarageController created.
+2020-08-28 21:06:49,413 INFO com.realestate.services.implementation.HouseServiceImpl [main] New instance of HouseServiceImpl created
+2020-08-28 21:06:49,419 INFO com.realestate.controllers.HouseController [main] New instance of HouseController created.
+2020-08-28 21:06:49,421 INFO com.realestate.controllers.RealEstateAgentController [main] New instance of RealEstateAgentController created.
+2020-08-28 21:06:49,424 INFO com.realestate.services.implementation.StorageServiceImpl [main] New instance of StorageServiceImpl created
+2020-08-28 21:06:49,430 INFO com.realestate.controllers.StorageController [main] New instance of StorageController created.
+2020-08-28 21:06:49,499 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-28 21:06:49,637 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-28 21:06:49,895 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-08-28 21:06:50,292 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-08-28 21:06:50,555 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-28 21:06:50,560 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-28 21:06:51,073 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-08-28 21:06:51,211 INFO org.springframework.boot.StartupInfoLogger [main] Started MmSpringbootApplicationTests in 3.494 seconds (JVM running for 4.192)
+2020-08-28 21:06:51,383 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-28 21:06:51,384 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-28 21:06:51,385 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] SQL Error: 90121, SQLState: 90121
+2020-08-28 21:06:51,385 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-28 21:06:51,386 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] SQL Error: 90121, SQLState: 90121
+2020-08-28 21:06:51,386 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-28 21:06:51,386 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [SpringContextShutdownHook] Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-08-28 21:06:51,386 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-28 21:06:51,387 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-28 21:06:51,391 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-28 21:07:08,857 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-08-28 21:07:08,902 INFO org.springframework.boot.StartupInfoLogger [main] Starting MmSpringbootApplicationTests on dell-Inspiron-3576 with PID 27772 (started by andrew in /home/andrew/IdeaProjects/mm-springboot/application)
+2020-08-28 21:07:08,904 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-08-28 21:07:09,519 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-28 21:07:09,614 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 88ms. Found 9 JPA repository interfaces.
+2020-08-28 21:07:10,154 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-28 21:07:10,174 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-28 21:07:10,406 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-28 21:07:10,473 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-28 21:07:10,477 INFO com.realestate.bootstrap.FacilityImageBootstrap [main] New instance of FacilityImageBootstrap created.
+2020-08-28 21:07:10,480 INFO com.realestate.bootstrap.RealEstateAgensyBootstrap [main] New instance of RealEstateAgensyBootstrap created.
+2020-08-28 21:07:10,496 INFO com.realestate.services.implementation.AddressServiceImpl [main] New instance of AddressServiceImpl created
+2020-08-28 21:07:10,527 INFO com.realestate.controllers.AddressController [main] New instance of AddressController created.
+2020-08-28 21:07:10,536 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-28 21:07:10,543 INFO com.realestate.services.implementation.ApartmentServiceImpl [main] New instance of ApartmentServiceImpl created
+2020-08-28 21:07:10,585 INFO com.realestate.services.implementation.FacilityServiceImpl [main] New instance of FacilityServiceImpl created
+2020-08-28 21:07:10,589 INFO com.realestate.services.implementation.ClientServiceImpl [main] New instance of ClientServiceImpl created
+2020-08-28 21:07:10,603 INFO com.realestate.controllers.ApartmentController [main] New instance of ApartmentController created.
+2020-08-28 21:07:10,609 INFO com.realestate.services.implementation.BasementServiceImpl [main] New instance of BasementServiceImpl created
+2020-08-28 21:07:10,622 INFO com.realestate.controllers.BasementController [main] New instance of BasementController created.
+2020-08-28 21:07:10,627 INFO com.realestate.services.implementation.RealEstateAgentServiceImpl [main] New instance of RealEstateAgentServiceImpl created
+2020-08-28 21:07:10,636 INFO com.realestate.controllers.ClientController [main] New instance of ClientController created.
+2020-08-28 21:07:10,644 INFO com.realestate.services.implementation.MappingServiceImpl [main] New instance of MappingServiceImpl created
+2020-08-28 21:07:10,646 INFO com.realestate.controllers.FacilityController [main] New instance of FacilityController created.
+2020-08-28 21:07:10,651 INFO com.realestate.services.implementation.GarageServiceImpl [main] New instance of GarageServiceImpl created
+2020-08-28 21:07:10,660 INFO com.realestate.controllers.GarageController [main] New instance of GarageController created.
+2020-08-28 21:07:10,666 INFO com.realestate.services.implementation.HouseServiceImpl [main] New instance of HouseServiceImpl created
+2020-08-28 21:07:10,676 INFO com.realestate.controllers.HouseController [main] New instance of HouseController created.
+2020-08-28 21:07:10,680 INFO com.realestate.controllers.RealEstateAgentController [main] New instance of RealEstateAgentController created.
+2020-08-28 21:07:10,686 INFO com.realestate.services.implementation.StorageServiceImpl [main] New instance of StorageServiceImpl created
+2020-08-28 21:07:10,697 INFO com.realestate.controllers.StorageController [main] New instance of StorageController created.
+2020-08-28 21:07:10,736 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-28 21:07:10,910 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-28 21:07:11,377 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-08-28 21:07:11,753 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-08-28 21:07:12,210 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-28 21:07:12,217 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-28 21:07:12,865 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-08-28 21:07:13,025 INFO org.springframework.boot.StartupInfoLogger [main] Started MmSpringbootApplicationTests in 4.394 seconds (JVM running for 5.025)
+2020-08-28 21:07:13,163 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-28 21:07:13,164 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-28 21:07:13,165 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] SQL Error: 90121, SQLState: 90121
+2020-08-28 21:07:13,166 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-28 21:07:13,167 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] SQL Error: 90121, SQLState: 90121
+2020-08-28 21:07:13,167 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-28 21:07:13,167 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [SpringContextShutdownHook] Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-08-28 21:07:13,167 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-28 21:07:13,168 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-28 21:07:13,171 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-08-28 21:33:45,402 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-08-28 21:33:45,445 INFO org.springframework.boot.StartupInfoLogger [main] Starting MmSpringbootApplicationTests on dell-Inspiron-3576 with PID 28933 (started by andrew in /home/andrew/IdeaProjects/mm-springboot/application)
+2020-08-28 21:33:45,447 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-08-28 21:33:46,080 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-28 21:33:46,170 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 84ms. Found 9 JPA repository interfaces.
+2020-08-28 21:33:46,642 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-28 21:33:46,653 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-28 21:33:46,815 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-28 21:33:46,870 INFO com.realestate.bootstrap.FacilityImageBootstrap [main] New instance of FacilityImageBootstrap created.
+2020-08-28 21:33:46,872 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-28 21:33:46,875 INFO com.realestate.bootstrap.RealEstateAgensyBootstrap [main] New instance of RealEstateAgensyBootstrap created.
+2020-08-28 21:33:46,888 INFO com.realestate.services.implementation.AddressServiceImpl [main] New instance of AddressServiceImpl created
+2020-08-28 21:33:46,912 INFO com.realestate.controllers.AddressController [main] New instance of AddressController created.
+2020-08-28 21:33:46,922 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-28 21:33:46,926 INFO com.realestate.services.implementation.ApartmentServiceImpl [main] New instance of ApartmentServiceImpl created
+2020-08-28 21:33:46,948 INFO com.realestate.services.implementation.FacilityServiceImpl [main] New instance of FacilityServiceImpl created
+2020-08-28 21:33:46,950 INFO com.realestate.services.implementation.ClientServiceImpl [main] New instance of ClientServiceImpl created
+2020-08-28 21:33:46,958 INFO com.realestate.controllers.ApartmentController [main] New instance of ApartmentController created.
+2020-08-28 21:33:46,961 INFO com.realestate.services.implementation.BasementServiceImpl [main] New instance of BasementServiceImpl created
+2020-08-28 21:33:46,968 INFO com.realestate.controllers.BasementController [main] New instance of BasementController created.
+2020-08-28 21:33:46,971 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientController' defined in file [/home/andrew/IdeaProjects/mm-springboot/application/target/classes/com/realestate/controllers/ClientController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'realEstateAgentServiceImpl' defined in file [/home/andrew/IdeaProjects/mm-springboot/application/target/classes/com/realestate/services/implementation/RealEstateAgentServiceImpl.class]: Bean instantiation via constructor failed; nested exception is java.lang.ExceptionInInitializerError
+2020-08-28 21:33:46,972 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-28 21:33:47,027 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-28 21:33:47,122 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-28 21:33:47,875 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-28 21:33:47,881 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-28 21:33:47,881 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-28 21:33:47,897 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-28 21:33:47,898 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2020-08-28 21:33:47,901 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2020-08-28 21:33:47,907 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-28 21:33:47,910 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientController' defined in file [/home/andrew/IdeaProjects/mm-springboot/application/target/classes/com/realestate/controllers/ClientController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'realEstateAgentServiceImpl' defined in file [/home/andrew/IdeaProjects/mm-springboot/application/target/classes/com/realestate/services/implementation/RealEstateAgentServiceImpl.class]: Bean instantiation via constructor failed; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:341)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:346)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:341)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:340)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:263)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:256)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:255)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:108)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:107)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:71)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'realEstateAgentServiceImpl' defined in file [/home/andrew/IdeaProjects/mm-springboot/application/target/classes/com/realestate/services/implementation/RealEstateAgentServiceImpl.class]: Bean instantiation via constructor failed; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:313)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 84 common frames omitted
+Caused by: java.lang.ExceptionInInitializerError: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:204)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:309)
+	... 98 common frames omitted
+Caused by: java.lang.RuntimeException: java.lang.NoSuchMethodException: com.realestate.mapper.RealEstateAgentMapperImpl.<init>()
+	at org.mapstruct.factory.Mappers.getMapper(Mappers.java:61)
+	at com.realestate.services.implementation.RealEstateAgentServiceImpl.<clinit>(RealEstateAgentServiceImpl.java:25)
+	... 105 common frames omitted
+Caused by: java.lang.NoSuchMethodException: com.realestate.mapper.RealEstateAgentMapperImpl.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3349)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2553)
+	at org.mapstruct.factory.Mappers.doGetMapper(Mappers.java:82)
+	at org.mapstruct.factory.Mappers.getMapper(Mappers.java:69)
+	at org.mapstruct.factory.Mappers.getMapper(Mappers.java:58)
+	... 106 common frames omitted
+2020-08-28 21:33:47,912 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@4fbe37eb] to prepare test instance [com.realestate.MmSpringbootApplicationTests@1283ca23]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:341)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:346)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:341)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:340)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:263)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:256)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:255)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:108)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:107)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:71)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientController' defined in file [/home/andrew/IdeaProjects/mm-springboot/application/target/classes/com/realestate/controllers/ClientController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'realEstateAgentServiceImpl' defined in file [/home/andrew/IdeaProjects/mm-springboot/application/target/classes/com/realestate/services/implementation/RealEstateAgentServiceImpl.class]: Bean instantiation via constructor failed; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 65 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'realEstateAgentServiceImpl' defined in file [/home/andrew/IdeaProjects/mm-springboot/application/target/classes/com/realestate/services/implementation/RealEstateAgentServiceImpl.class]: Bean instantiation via constructor failed; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:313)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 84 common frames omitted
+Caused by: java.lang.ExceptionInInitializerError: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:204)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:309)
+	... 98 common frames omitted
+Caused by: java.lang.RuntimeException: java.lang.NoSuchMethodException: com.realestate.mapper.RealEstateAgentMapperImpl.<init>()
+	at org.mapstruct.factory.Mappers.getMapper(Mappers.java:61)
+	at com.realestate.services.implementation.RealEstateAgentServiceImpl.<clinit>(RealEstateAgentServiceImpl.java:25)
+	... 105 common frames omitted
+Caused by: java.lang.NoSuchMethodException: com.realestate.mapper.RealEstateAgentMapperImpl.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3349)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2553)
+	at org.mapstruct.factory.Mappers.doGetMapper(Mappers.java:82)
+	at org.mapstruct.factory.Mappers.getMapper(Mappers.java:69)
+	at org.mapstruct.factory.Mappers.getMapper(Mappers.java:58)
+	... 106 common frames omitted
+2020-08-28 21:42:03,828 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-08-28 21:42:03,864 INFO org.springframework.boot.StartupInfoLogger [main] Starting MmSpringbootApplicationTests on dell-Inspiron-3576 with PID 29486 (started by andrew in /home/andrew/IdeaProjects/mm-springboot/application)
+2020-08-28 21:42:03,866 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-08-28 21:42:04,444 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-28 21:42:04,525 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 75ms. Found 9 JPA repository interfaces.
+2020-08-28 21:42:04,942 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-28 21:42:04,953 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-28 21:42:05,112 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-28 21:42:05,163 INFO com.realestate.bootstrap.FacilityImageBootstrap [main] New instance of FacilityImageBootstrap created.
+2020-08-28 21:42:05,165 INFO com.realestate.bootstrap.RealEstateAgensyBootstrap [main] New instance of RealEstateAgensyBootstrap created.
+2020-08-28 21:42:05,169 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-28 21:42:05,175 INFO com.realestate.services.implementation.AddressServiceImpl [main] New instance of AddressServiceImpl created
+2020-08-28 21:42:05,193 INFO com.realestate.controllers.AddressController [main] New instance of AddressController created.
+2020-08-28 21:42:05,201 INFO com.realestate.services.implementation.ApartmentServiceImpl [main] New instance of ApartmentServiceImpl created
+2020-08-28 21:42:05,222 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-28 21:42:05,226 INFO com.realestate.services.implementation.FacilityServiceImpl [main] New instance of FacilityServiceImpl created
+2020-08-28 21:42:05,228 INFO com.realestate.services.implementation.ClientServiceImpl [main] New instance of ClientServiceImpl created
+2020-08-28 21:42:05,236 INFO com.realestate.controllers.ApartmentController [main] New instance of ApartmentController created.
+2020-08-28 21:42:05,239 INFO com.realestate.services.implementation.BasementServiceImpl [main] New instance of BasementServiceImpl created
+2020-08-28 21:42:05,245 INFO com.realestate.controllers.BasementController [main] New instance of BasementController created.
+2020-08-28 21:42:05,249 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientController' defined in file [/home/andrew/IdeaProjects/mm-springboot/application/target/classes/com/realestate/controllers/ClientController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'realEstateAgentServiceImpl' defined in file [/home/andrew/IdeaProjects/mm-springboot/application/target/classes/com/realestate/services/implementation/RealEstateAgentServiceImpl.class]: Bean instantiation via constructor failed; nested exception is java.lang.ExceptionInInitializerError
+2020-08-28 21:42:05,249 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-28 21:42:05,352 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-28 21:42:05,449 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-28 21:42:06,204 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-28 21:42:06,209 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-28 21:42:06,209 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-28 21:42:06,226 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-28 21:42:06,227 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2020-08-28 21:42:06,230 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2020-08-28 21:42:06,239 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-28 21:42:06,242 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientController' defined in file [/home/andrew/IdeaProjects/mm-springboot/application/target/classes/com/realestate/controllers/ClientController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'realEstateAgentServiceImpl' defined in file [/home/andrew/IdeaProjects/mm-springboot/application/target/classes/com/realestate/services/implementation/RealEstateAgentServiceImpl.class]: Bean instantiation via constructor failed; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:341)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:346)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:341)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:340)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:263)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:256)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:255)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:108)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:107)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:71)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'realEstateAgentServiceImpl' defined in file [/home/andrew/IdeaProjects/mm-springboot/application/target/classes/com/realestate/services/implementation/RealEstateAgentServiceImpl.class]: Bean instantiation via constructor failed; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:313)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 84 common frames omitted
+Caused by: java.lang.ExceptionInInitializerError: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:204)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:309)
+	... 98 common frames omitted
+Caused by: java.lang.RuntimeException: java.lang.NoSuchMethodException: com.realestate.mapper.RealEstateAgentMapperImpl.<init>()
+	at org.mapstruct.factory.Mappers.getMapper(Mappers.java:61)
+	at com.realestate.services.implementation.RealEstateAgentServiceImpl.<clinit>(RealEstateAgentServiceImpl.java:25)
+	... 105 common frames omitted
+Caused by: java.lang.NoSuchMethodException: com.realestate.mapper.RealEstateAgentMapperImpl.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3349)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2553)
+	at org.mapstruct.factory.Mappers.doGetMapper(Mappers.java:82)
+	at org.mapstruct.factory.Mappers.getMapper(Mappers.java:69)
+	at org.mapstruct.factory.Mappers.getMapper(Mappers.java:58)
+	... 106 common frames omitted
+2020-08-28 21:42:06,245 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@4fbe37eb] to prepare test instance [com.realestate.MmSpringbootApplicationTests@2c1f8dbd]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:341)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:346)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:341)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:340)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:263)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:256)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:255)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:108)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:107)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:71)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientController' defined in file [/home/andrew/IdeaProjects/mm-springboot/application/target/classes/com/realestate/controllers/ClientController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'realEstateAgentServiceImpl' defined in file [/home/andrew/IdeaProjects/mm-springboot/application/target/classes/com/realestate/services/implementation/RealEstateAgentServiceImpl.class]: Bean instantiation via constructor failed; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 65 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'realEstateAgentServiceImpl' defined in file [/home/andrew/IdeaProjects/mm-springboot/application/target/classes/com/realestate/services/implementation/RealEstateAgentServiceImpl.class]: Bean instantiation via constructor failed; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:313)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:294)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 84 common frames omitted
+Caused by: java.lang.ExceptionInInitializerError: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:204)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:309)
+	... 98 common frames omitted
+Caused by: java.lang.RuntimeException: java.lang.NoSuchMethodException: com.realestate.mapper.RealEstateAgentMapperImpl.<init>()
+	at org.mapstruct.factory.Mappers.getMapper(Mappers.java:61)
+	at com.realestate.services.implementation.RealEstateAgentServiceImpl.<clinit>(RealEstateAgentServiceImpl.java:25)
+	... 105 common frames omitted
+Caused by: java.lang.NoSuchMethodException: com.realestate.mapper.RealEstateAgentMapperImpl.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3349)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2553)
+	at org.mapstruct.factory.Mappers.doGetMapper(Mappers.java:82)
+	at org.mapstruct.factory.Mappers.getMapper(Mappers.java:69)
+	at org.mapstruct.factory.Mappers.getMapper(Mappers.java:58)
+	... 106 common frames omitted

@@ -1,0 +1,586 @@
+2020-09-11 15:06:48,306 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-09-11 15:06:48,325 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MmSpringbootApplication on dell-Inspiron-3576 with PID 22726 (/home/andrew/IdeaProjects/mm-springboot/application/target/classes started by andrew in /home/andrew/IdeaProjects/mm-springboot)
+2020-09-11 15:06:48,326 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-09-11 15:06:48,360 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-11 15:06:48,361 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-11 15:06:48,901 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-11 15:06:48,977 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 71ms. Found 9 JPA repository interfaces.
+2020-09-11 15:06:49,378 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-09-11 15:06:49,383 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-11 15:06:49,384 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-09-11 15:06:49,384 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-11 15:06:49,424 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-09-11 15:06:49,424 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1063 ms
+2020-09-11 15:06:49,455 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-09-11 15:06:49,524 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-09-11 15:06:49,528 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-09-11 15:06:49,616 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-11 15:06:49,653 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-11 15:06:49,684 INFO com.realestate.bootstrap.FacilityImageBootstrap [restartedMain] New instance of FacilityImageBootstrap created.
+2020-09-11 15:06:49,694 INFO com.realestate.bootstrap.RealEstateAgensyBootstrap [restartedMain] New instance of RealEstateAgensyBootstrap created.
+2020-09-11 15:06:49,716 INFO com.realestate.service.implementation.AddressServiceImpl [restartedMain] New instance of AddressServiceImpl created
+2020-09-11 15:06:49,732 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-11 15:06:49,737 INFO com.realestate.service.implementation.ApartmentServiceImpl [restartedMain] New instance of ApartmentServiceImpl created
+2020-09-11 15:06:49,746 INFO com.realestate.service.implementation.BasementServiceImpl [restartedMain] New instance of BasementServiceImpl created
+2020-09-11 15:06:49,756 INFO com.realestate.service.implementation.ClientServiceImpl [restartedMain] New instance of ClientServiceImpl created
+2020-09-11 15:06:49,765 INFO com.realestate.service.implementation.GarageServiceImpl [restartedMain] New instance of GarageServiceImpl created
+2020-09-11 15:06:49,773 INFO com.realestate.service.implementation.HouseServiceImpl [restartedMain] New instance of HouseServiceImpl created
+2020-09-11 15:06:49,779 INFO com.realestate.service.implementation.RealEstateAgentServiceImpl [restartedMain] New instance of RealEstateAgentServiceImpl created
+2020-09-11 15:06:49,792 INFO com.realestate.service.implementation.StorageServiceImpl [restartedMain] New instance of StorageServiceImpl created
+2020-09-11 15:06:49,796 INFO com.realestate.controllers.web.AddressController [restartedMain] New instance of AddressController created.
+2020-09-11 15:06:49,797 INFO com.realestate.controllers.web.ApartmentController [restartedMain] New instance of ApartmentController created.
+2020-09-11 15:06:49,798 INFO com.realestate.controllers.web.BasementController [restartedMain] New instance of BasementController created.
+2020-09-11 15:06:49,799 INFO com.realestate.controllers.web.ClientController [restartedMain] New instance of ClientController created.
+2020-09-11 15:06:49,802 INFO com.realestate.service.implementation.FacilityServiceImpl [restartedMain] New instance of FacilityServiceImpl created
+2020-09-11 15:06:49,803 INFO com.realestate.service.implementation.MappingServiceImpl [restartedMain] New instance of MappingServiceImpl created
+2020-09-11 15:06:49,804 INFO com.realestate.controllers.web.FacilityController [restartedMain] New instance of FacilityController created.
+2020-09-11 15:06:49,805 INFO com.realestate.controllers.web.GarageController [restartedMain] New instance of GarageController created.
+2020-09-11 15:06:49,806 INFO com.realestate.controllers.web.HouseController [restartedMain] New instance of HouseController created.
+2020-09-11 15:06:49,807 INFO com.realestate.controllers.web.RealEstateAgentController [restartedMain] New instance of RealEstateAgentController created.
+2020-09-11 15:06:49,808 INFO com.realestate.controllers.web.StorageController [restartedMain] New instance of StorageController created.
+2020-09-11 15:06:49,824 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-11 15:06:49,920 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-11 15:07:13,864 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b762c59, org.springframework.security.web.context.SecurityContextPersistenceFilter@5cbfd40d, org.springframework.security.web.header.HeaderWriterFilter@5f0971ab, org.springframework.security.web.authentication.logout.LogoutFilter@1d70d58a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@8d6eda2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e8c300e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6de5f4a5, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@120799ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19a36951, org.springframework.security.web.session.SessionManagementFilter@4ca4a296, org.springframework.security.web.access.ExceptionTranslationFilter@49bc8c14, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b7d686d]
+2020-09-11 15:07:14,119 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-09-11 15:07:14,130 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-09-11 15:07:14,145 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-11 15:07:14,147 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-09-11 15:07:14,439 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-11 15:07:14,444 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-11 15:07:14,795 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-09-11 15:07:14,891 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MmSpringbootApplication in 26.927 seconds (JVM running for 28.4)
+2020-09-11 15:07:27,377 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-11 15:07:27,377 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-09-11 15:07:27,382 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2020-09-11 15:40:23,677 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-11 15:40:23,677 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-09-11 15:40:23,684 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-11 15:40:23,890 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [SpringContextShutdownHook] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-09-11 15:40:23,892 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-11 15:40:23,901 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-09-11 18:49:30,183 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-09-11 18:49:30,202 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MmSpringbootApplication on dell-Inspiron-3576 with PID 27849 (/home/andrew/IdeaProjects/mm-springboot/application/target/classes started by andrew in /home/andrew/IdeaProjects/mm-springboot)
+2020-09-11 18:49:30,210 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-09-11 18:49:30,265 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-11 18:49:30,265 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-11 18:49:30,938 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-11 18:49:31,038 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 79ms. Found 9 JPA repository interfaces.
+2020-09-11 18:49:31,475 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-09-11 18:49:31,480 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-11 18:49:31,481 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-09-11 18:49:31,481 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-11 18:49:31,536 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-09-11 18:49:31,536 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1271 ms
+2020-09-11 18:49:31,570 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-09-11 18:49:31,641 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-09-11 18:49:31,646 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-09-11 18:49:31,734 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-11 18:49:31,766 INFO com.realestate.bootstrap.FacilityImageBootstrap [restartedMain] New instance of FacilityImageBootstrap created.
+2020-09-11 18:49:31,767 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-11 18:49:31,768 INFO com.realestate.bootstrap.RealEstateAgensyBootstrap [restartedMain] New instance of RealEstateAgensyBootstrap created.
+2020-09-11 18:49:31,831 INFO com.realestate.service.implementation.AddressServiceImpl [restartedMain] New instance of AddressServiceImpl created
+2020-09-11 18:49:31,861 INFO com.realestate.service.implementation.ApartmentServiceImpl [restartedMain] New instance of ApartmentServiceImpl created
+2020-09-11 18:49:31,861 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-11 18:49:31,876 INFO com.realestate.service.implementation.BasementServiceImpl [restartedMain] New instance of BasementServiceImpl created
+2020-09-11 18:49:31,888 INFO com.realestate.service.implementation.ClientServiceImpl [restartedMain] New instance of ClientServiceImpl created
+2020-09-11 18:49:31,898 INFO com.realestate.service.implementation.GarageServiceImpl [restartedMain] New instance of GarageServiceImpl created
+2020-09-11 18:49:31,908 INFO com.realestate.service.implementation.HouseServiceImpl [restartedMain] New instance of HouseServiceImpl created
+2020-09-11 18:49:31,917 INFO com.realestate.service.implementation.RealEstateAgentServiceImpl [restartedMain] New instance of RealEstateAgentServiceImpl created
+2020-09-11 18:49:31,935 INFO com.realestate.service.implementation.StorageServiceImpl [restartedMain] New instance of StorageServiceImpl created
+2020-09-11 18:49:31,942 INFO com.realestate.controllers.web.AddressController [restartedMain] New instance of AddressController created.
+2020-09-11 18:49:31,944 INFO com.realestate.controllers.web.ApartmentController [restartedMain] New instance of ApartmentController created.
+2020-09-11 18:49:31,945 INFO com.realestate.controllers.web.BasementController [restartedMain] New instance of BasementController created.
+2020-09-11 18:49:31,947 INFO com.realestate.controllers.web.ClientController [restartedMain] New instance of ClientController created.
+2020-09-11 18:49:31,951 INFO com.realestate.service.implementation.FacilityServiceImpl [restartedMain] New instance of FacilityServiceImpl created
+2020-09-11 18:49:31,953 INFO com.realestate.service.implementation.MappingServiceImpl [restartedMain] New instance of MappingServiceImpl created
+2020-09-11 18:49:31,954 INFO com.realestate.controllers.web.FacilityController [restartedMain] New instance of FacilityController created.
+2020-09-11 18:49:31,955 INFO com.realestate.controllers.web.GarageController [restartedMain] New instance of GarageController created.
+2020-09-11 18:49:31,957 INFO com.realestate.controllers.web.HouseController [restartedMain] New instance of HouseController created.
+2020-09-11 18:49:31,958 INFO com.realestate.controllers.web.RealEstateAgentController [restartedMain] New instance of RealEstateAgentController created.
+2020-09-11 18:49:31,959 INFO com.realestate.controllers.web.StorageController [restartedMain] New instance of StorageController created.
+2020-09-11 18:49:31,988 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-11 18:49:32,085 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-11 18:49:39,066 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9208e1a, org.springframework.security.web.context.SecurityContextPersistenceFilter@77606c04, org.springframework.security.web.header.HeaderWriterFilter@75012fc9, org.springframework.security.web.authentication.logout.LogoutFilter@1dc7cfa3, com.realestate.security.jwt.JwtUsernameAndPasswordAuthenticationFilter@5b244645, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ac8726d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f381ecb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27346a83, org.springframework.security.web.session.SessionManagementFilter@6274a228, org.springframework.security.web.access.ExceptionTranslationFilter@5ea901d9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@12ee0def]
+2020-09-11 18:49:39,355 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-09-11 18:49:39,368 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-09-11 18:49:39,379 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-11 18:49:39,380 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-09-11 18:49:39,664 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-11 18:49:39,669 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-11 18:49:40,022 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-09-11 18:49:40,181 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MmSpringbootApplication in 10.369 seconds (JVM running for 10.931)
+2020-09-11 19:05:49,879 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-11 19:05:49,880 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-09-11 19:05:49,886 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2020-09-11 19:06:19,577 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s823ms70µs485ns).
+2020-09-11 19:06:30,805 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 144 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the io.jsonwebtoken.security.Keys#secretKeyFor(SignatureAlgorithm) method to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.
+	at io.jsonwebtoken.security.Keys.hmacShaKeyFor(Keys.java:81)
+	at com.realestate.security.jwt.JwtUsernameAndPasswordAuthenticationFilter.successfulAuthentication(JwtUsernameAndPasswordAuthenticationFilter.java:59)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:240)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-09-11 19:07:48,175 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-11 19:07:48,176 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-09-11 19:07:48,186 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-11 19:07:48,392 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [SpringContextShutdownHook] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-09-11 19:07:48,392 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-11 19:07:48,395 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-09-11 19:11:17,929 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-09-11 19:11:17,949 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MmSpringbootApplication on dell-Inspiron-3576 with PID 29017 (/home/andrew/IdeaProjects/mm-springboot/application/target/classes started by andrew in /home/andrew/IdeaProjects/mm-springboot)
+2020-09-11 19:11:17,950 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-09-11 19:11:18,000 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-11 19:11:18,001 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-11 19:11:18,586 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-11 19:11:18,651 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 60ms. Found 9 JPA repository interfaces.
+2020-09-11 19:11:19,064 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-09-11 19:11:19,069 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-11 19:11:19,069 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-09-11 19:11:19,069 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-11 19:11:19,124 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-09-11 19:11:19,124 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1123 ms
+2020-09-11 19:11:19,158 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-09-11 19:11:19,232 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-09-11 19:11:19,236 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-09-11 19:11:19,320 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-11 19:11:19,356 INFO com.realestate.bootstrap.FacilityImageBootstrap [restartedMain] New instance of FacilityImageBootstrap created.
+2020-09-11 19:11:19,356 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-11 19:11:19,357 INFO com.realestate.bootstrap.RealEstateAgensyBootstrap [restartedMain] New instance of RealEstateAgensyBootstrap created.
+2020-09-11 19:11:19,402 INFO com.realestate.service.implementation.AddressServiceImpl [restartedMain] New instance of AddressServiceImpl created
+2020-09-11 19:11:19,422 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-11 19:11:19,427 INFO com.realestate.service.implementation.ApartmentServiceImpl [restartedMain] New instance of ApartmentServiceImpl created
+2020-09-11 19:11:19,435 INFO com.realestate.service.implementation.BasementServiceImpl [restartedMain] New instance of BasementServiceImpl created
+2020-09-11 19:11:19,444 INFO com.realestate.service.implementation.ClientServiceImpl [restartedMain] New instance of ClientServiceImpl created
+2020-09-11 19:11:19,451 INFO com.realestate.service.implementation.GarageServiceImpl [restartedMain] New instance of GarageServiceImpl created
+2020-09-11 19:11:19,458 INFO com.realestate.service.implementation.HouseServiceImpl [restartedMain] New instance of HouseServiceImpl created
+2020-09-11 19:11:19,463 INFO com.realestate.service.implementation.RealEstateAgentServiceImpl [restartedMain] New instance of RealEstateAgentServiceImpl created
+2020-09-11 19:11:19,475 INFO com.realestate.service.implementation.StorageServiceImpl [restartedMain] New instance of StorageServiceImpl created
+2020-09-11 19:11:19,479 INFO com.realestate.controllers.web.AddressController [restartedMain] New instance of AddressController created.
+2020-09-11 19:11:19,480 INFO com.realestate.controllers.web.ApartmentController [restartedMain] New instance of ApartmentController created.
+2020-09-11 19:11:19,481 INFO com.realestate.controllers.web.BasementController [restartedMain] New instance of BasementController created.
+2020-09-11 19:11:19,481 INFO com.realestate.controllers.web.ClientController [restartedMain] New instance of ClientController created.
+2020-09-11 19:11:19,483 INFO com.realestate.service.implementation.FacilityServiceImpl [restartedMain] New instance of FacilityServiceImpl created
+2020-09-11 19:11:19,485 INFO com.realestate.service.implementation.MappingServiceImpl [restartedMain] New instance of MappingServiceImpl created
+2020-09-11 19:11:19,485 INFO com.realestate.controllers.web.FacilityController [restartedMain] New instance of FacilityController created.
+2020-09-11 19:11:19,486 INFO com.realestate.controllers.web.GarageController [restartedMain] New instance of GarageController created.
+2020-09-11 19:11:19,487 INFO com.realestate.controllers.web.HouseController [restartedMain] New instance of HouseController created.
+2020-09-11 19:11:19,487 INFO com.realestate.controllers.web.RealEstateAgentController [restartedMain] New instance of RealEstateAgentController created.
+2020-09-11 19:11:19,488 INFO com.realestate.controllers.web.StorageController [restartedMain] New instance of StorageController created.
+2020-09-11 19:11:19,505 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-11 19:11:19,591 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-11 19:11:19,663 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b67ba38, org.springframework.security.web.context.SecurityContextPersistenceFilter@35d32c50, org.springframework.security.web.header.HeaderWriterFilter@721e24de, org.springframework.security.web.authentication.logout.LogoutFilter@1b5720db, com.realestate.security.jwt.JwtUsernameAndPasswordAuthenticationFilter@e560688, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6813eb20, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78eda9c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49bc8c14, org.springframework.security.web.session.SessionManagementFilter@1e3a154c, org.springframework.security.web.access.ExceptionTranslationFilter@1d730da2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@9e2ca74]
+2020-09-11 19:11:19,953 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-09-11 19:11:19,967 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-09-11 19:11:19,980 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-11 19:11:19,983 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-09-11 19:11:20,308 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-11 19:11:20,317 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-11 19:11:20,757 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-09-11 19:11:20,927 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MmSpringbootApplication in 3.319 seconds (JVM running for 3.95)
+2020-09-11 19:11:41,121 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-11 19:11:41,121 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-09-11 19:11:41,127 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 5 ms
+2020-09-11 19:11:45,193 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 144 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the io.jsonwebtoken.security.Keys#secretKeyFor(SignatureAlgorithm) method to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.
+	at io.jsonwebtoken.security.Keys.hmacShaKeyFor(Keys.java:81)
+	at com.realestate.security.jwt.JwtUsernameAndPasswordAuthenticationFilter.successfulAuthentication(JwtUsernameAndPasswordAuthenticationFilter.java:59)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:240)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-09-11 19:13:04,990 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-11 19:13:04,990 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-09-11 19:13:04,996 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-11 19:13:05,202 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [SpringContextShutdownHook] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-09-11 19:13:05,204 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-11 19:13:05,213 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-09-11 19:13:07,696 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-09-11 19:13:07,736 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting MmSpringbootApplication on dell-Inspiron-3576 with PID 29218 (/home/andrew/IdeaProjects/mm-springboot/application/target/classes started by andrew in /home/andrew/IdeaProjects/mm-springboot)
+2020-09-11 19:13:07,738 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-09-11 19:13:07,835 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-11 19:13:07,835 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-11 19:13:08,409 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-11 19:13:08,481 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 66ms. Found 9 JPA repository interfaces.
+2020-09-11 19:13:08,879 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-09-11 19:13:08,885 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-11 19:13:08,885 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-09-11 19:13:08,885 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-11 19:13:08,940 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-09-11 19:13:08,940 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1105 ms
+2020-09-11 19:13:08,974 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-09-11 19:13:09,043 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-09-11 19:13:09,046 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-09-11 19:13:09,122 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-11 19:13:09,194 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-11 19:13:09,194 INFO com.realestate.bootstrap.FacilityImageBootstrap [restartedMain] New instance of FacilityImageBootstrap created.
+2020-09-11 19:13:09,195 INFO com.realestate.bootstrap.RealEstateAgensyBootstrap [restartedMain] New instance of RealEstateAgensyBootstrap created.
+2020-09-11 19:13:09,203 INFO com.realestate.service.implementation.AddressServiceImpl [restartedMain] New instance of AddressServiceImpl created
+2020-09-11 19:13:09,223 INFO com.realestate.service.implementation.ApartmentServiceImpl [restartedMain] New instance of ApartmentServiceImpl created
+2020-09-11 19:13:09,230 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-11 19:13:09,231 INFO com.realestate.service.implementation.BasementServiceImpl [restartedMain] New instance of BasementServiceImpl created
+2020-09-11 19:13:09,239 INFO com.realestate.service.implementation.ClientServiceImpl [restartedMain] New instance of ClientServiceImpl created
+2020-09-11 19:13:09,246 INFO com.realestate.service.implementation.GarageServiceImpl [restartedMain] New instance of GarageServiceImpl created
+2020-09-11 19:13:09,252 INFO com.realestate.service.implementation.HouseServiceImpl [restartedMain] New instance of HouseServiceImpl created
+2020-09-11 19:13:09,257 INFO com.realestate.service.implementation.RealEstateAgentServiceImpl [restartedMain] New instance of RealEstateAgentServiceImpl created
+2020-09-11 19:13:09,269 INFO com.realestate.service.implementation.StorageServiceImpl [restartedMain] New instance of StorageServiceImpl created
+2020-09-11 19:13:09,272 INFO com.realestate.controllers.web.AddressController [restartedMain] New instance of AddressController created.
+2020-09-11 19:13:09,273 INFO com.realestate.controllers.web.ApartmentController [restartedMain] New instance of ApartmentController created.
+2020-09-11 19:13:09,274 INFO com.realestate.controllers.web.BasementController [restartedMain] New instance of BasementController created.
+2020-09-11 19:13:09,275 INFO com.realestate.controllers.web.ClientController [restartedMain] New instance of ClientController created.
+2020-09-11 19:13:09,277 INFO com.realestate.service.implementation.FacilityServiceImpl [restartedMain] New instance of FacilityServiceImpl created
+2020-09-11 19:13:09,278 INFO com.realestate.service.implementation.MappingServiceImpl [restartedMain] New instance of MappingServiceImpl created
+2020-09-11 19:13:09,279 INFO com.realestate.controllers.web.FacilityController [restartedMain] New instance of FacilityController created.
+2020-09-11 19:13:09,279 INFO com.realestate.controllers.web.GarageController [restartedMain] New instance of GarageController created.
+2020-09-11 19:13:09,280 INFO com.realestate.controllers.web.HouseController [restartedMain] New instance of HouseController created.
+2020-09-11 19:13:09,281 INFO com.realestate.controllers.web.RealEstateAgentController [restartedMain] New instance of RealEstateAgentController created.
+2020-09-11 19:13:09,281 INFO com.realestate.controllers.web.StorageController [restartedMain] New instance of StorageController created.
+2020-09-11 19:13:09,313 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-11 19:13:09,384 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-11 19:13:09,432 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@686ce334, org.springframework.security.web.context.SecurityContextPersistenceFilter@a55e981, org.springframework.security.web.header.HeaderWriterFilter@67365c7d, org.springframework.security.web.authentication.logout.LogoutFilter@3dedce, com.realestate.security.jwt.JwtUsernameAndPasswordAuthenticationFilter@3da706b4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@114bd506, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a4b3b36, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c3a4941, org.springframework.security.web.session.SessionManagementFilter@33aaa571, org.springframework.security.web.access.ExceptionTranslationFilter@1454aa1f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32dcfaf2]
+2020-09-11 19:13:09,686 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-09-11 19:13:09,697 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-09-11 19:13:09,711 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-11 19:13:09,712 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-09-11 19:13:09,996 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-11 19:13:10,001 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-11 19:13:10,400 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-09-11 19:13:10,552 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started MmSpringbootApplication in 3.178 seconds (JVM running for 3.822)
+2020-09-11 19:13:17,443 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-11 19:13:17,443 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-09-11 19:13:17,449 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2020-09-11 19:13:29,768 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 144 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the io.jsonwebtoken.security.Keys#secretKeyFor(SignatureAlgorithm) method to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.
+	at io.jsonwebtoken.security.Keys.hmacShaKeyFor(Keys.java:81)
+	at com.realestate.security.jwt.JwtUsernameAndPasswordAuthenticationFilter.successfulAuthentication(JwtUsernameAndPasswordAuthenticationFilter.java:59)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:240)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-09-11 19:14:00,653 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-8] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'username': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.apache.catalina.connector.CoyoteInputStream); line: 1, column: 10]
+	at com.realestate.security.jwt.JwtUsernameAndPasswordAuthenticationFilter.attemptAuthentication(JwtUsernameAndPasswordAuthenticationFilter.java:43)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'username': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.apache.catalina.connector.CoyoteInputStream); line: 1, column: 10]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._reportInvalidToken(UTF8StreamJsonParser.java:3588)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2683)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:865)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:757)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3503)
+	at com.realestate.security.jwt.JwtUsernameAndPasswordAuthenticationFilter.attemptAuthentication(JwtUsernameAndPasswordAuthenticationFilter.java:34)
+	... 47 common frames omitted
+2020-09-11 19:14:12,233 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-10] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'username': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.apache.catalina.connector.CoyoteInputStream); line: 1, column: 10]
+	at com.realestate.security.jwt.JwtUsernameAndPasswordAuthenticationFilter.attemptAuthentication(JwtUsernameAndPasswordAuthenticationFilter.java:43)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'username': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.apache.catalina.connector.CoyoteInputStream); line: 1, column: 10]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._reportInvalidToken(UTF8StreamJsonParser.java:3588)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2683)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:865)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:757)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3503)
+	at com.realestate.security.jwt.JwtUsernameAndPasswordAuthenticationFilter.attemptAuthentication(JwtUsernameAndPasswordAuthenticationFilter.java:34)
+	... 47 common frames omitted
+2020-09-11 19:14:23,599 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'username': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.apache.catalina.connector.CoyoteInputStream); line: 1, column: 10]
+	at com.realestate.security.jwt.JwtUsernameAndPasswordAuthenticationFilter.attemptAuthentication(JwtUsernameAndPasswordAuthenticationFilter.java:43)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'username': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (org.apache.catalina.connector.CoyoteInputStream); line: 1, column: 10]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._reportInvalidToken(UTF8StreamJsonParser.java:3588)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2683)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._nextTokenNotInObject(UTF8StreamJsonParser.java:865)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:757)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4662)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4511)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3503)
+	at com.realestate.security.jwt.JwtUsernameAndPasswordAuthenticationFilter.attemptAuthentication(JwtUsernameAndPasswordAuthenticationFilter.java:34)
+	... 47 common frames omitted
+2020-09-11 19:14:36,848 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-11 19:14:36,848 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-09-11 19:14:36,854 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-11 19:14:37,061 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [SpringContextShutdownHook] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-09-11 19:14:37,063 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-11 19:14:37,075 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.

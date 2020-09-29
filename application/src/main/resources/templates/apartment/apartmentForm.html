@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Real Estate Agency</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"
+          th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}">
+
+    <script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous" th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}"></script>
+</head>
+
+<body>
+
+<div class="container-fluid" style="margin-top: 20px">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <form th:object="${apartment}" th:action="@{'/app/v1/apartment/save'}" method="post">
+
+                <div th:if="${#fields.hasErrors('*')}" class="alert alert-danger">
+                    <p th:text="#{message.error.correct}">Please Correct Input Errors Below</p>
+                </div>
+
+                <input type="hidden" th:field="*{id}"/>
+                <div class="pannel-group">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <h1 class="panel-title"
+                                        th:text="#{message.facility.edit.apartment}">Edit Apartment Information</h1>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="btn btn-default" href="#" role="button"
+                                       th:text="#{message.facility.image}"
+                                       th:href="@{'/app/v1/apartment/' + ${apartment.id} + '/image'}">Change Image</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-3 form-group"
+                                     th:class="${#fields.hasErrors('description')} ? 'col-md-3 form-group has-error' : 'col-md-3 form-group'">
+                                    <label th:text="#{message.facility.description}">Description:</label>
+                                    <input type="text" class="form-control" th:field="*{description}" th:errorclass="has-error"/>
+                                    <span class="help-block" th:if="${#fields.hasErrors('description')}">
+                                        <ul>
+                                            <li th:each="err : ${#fields.errors('description')}" th:text="${err}"/>
+                                        </ul>
+                                    </span>
+                                </div>
+                                <div class="col-md-3 form-group"
+                                     th:class="${#fields.hasErrors('monthRent')} ? 'col-md-3 form-group has-error' : 'col-md-3 form-group'">
+                                    <label th:text="#{message.facility.monthRent}">Month Rent:</label>
+                                    <input type="text" class="form-control" th:field="*{monthRent}" th:errorclass="has-error"/>
+                                    <span class="help-block" th:if="${#fields.hasErrors('monthRent')}">
+                                        <ul>
+                                            <li th:each="err : ${#fields.errors('monthRent')}" th:text="${err}"/>
+                                        </ul>
+                                    </span>
+                                </div>
+                                <div class="col-md-3 form-group"
+                                     th:class="${#fields.hasErrors('price')} ? 'col-md-3 form-group has-error' : 'col-md-3 form-group'">
+                                    <label th:text="#{message.facility.price}">Price:</label>
+                                    <input type="text" class="form-control" th:field="*{price}" th:errorclass="has-error"/>
+                                    <span class="help-block" th:if="${#fields.hasErrors('price')}">
+                                        <ul>
+                                            <li th:each="err : ${#fields.errors('price')}" th:text="${err}"/>
+                                        </ul>
+                                    </span>
+                                </div>
+                                <div class="col-md-3 form-group">
+                                    <label th:text="#{message.facility.status}">Status:</label>
+                                    <select class="form-control" th:field="*{status}">
+                                        <option th:each="statusValue : ${T(com.realestate.model.enums.Status).values()}"
+                                                th:value="${statusValue.name()}"
+                                                th:text="${statusValue.name()}">Undefine</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 form-group"
+                                     th:class="${#fields.hasErrors('numberOfRooms')} ? 'col-md-3 form-group has-error' : 'col-md-3 form-group'">
+                                    <label th:text="#{message.facility.numberOfRooms}">Number of Rooms:</label>
+                                    <input type="text" class="form-control" th:field="*{numberOfRooms}" th:errorclass="has-error"/>
+                                    <span class="help-block" th:if="${#fields.hasErrors('numberOfRooms')}">
+                                        <ul>
+                                            <li th:each="err : ${#fields.errors('numberOfRooms')}" th:text="${err}"/>
+                                        </ul>
+                                    </span>
+                                </div>
+                                <div class="col-md-3 form-group"
+                                     th:class="${#fields.hasErrors('totalArea')} ? 'col-md-3 form-group has-error' : 'col-md-3 form-group'">
+                                    <label th:text="#{message.facility.totalArea}">Total Area:</label>
+                                    <input type="text" class="form-control" th:field="*{totalArea}" th:errorclass="has-error"/>
+                                    <span class="help-block" th:if="${#fields.hasErrors('totalArea')}">
+                                        <ul>
+                                            <li th:each="err : ${#fields.errors('totalArea')}" th:text="${err}"/>
+                                        </ul>
+                                    </span>
+                                </div>
+                                <div class="col-md-3 form-group">
+                                    <label th:text="#{message.facility.apartmentNumber}">Apartment Number:</label>
+                                    <input type="text" class="form-control" th:field="*{apartmentNumber}" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 form-group">
+                                    <label th:text="#{message.facility.floor}">Floor:</label>
+                                    <input type="text" class="form-control" th:field="*{floor}" />
+                                </div>
+                                <div class="col-md-3 form-group"
+                                     th:class="${#fields.hasErrors('publishedDateTime')} ? 'col-md-3 form-group has-error' : 'col-md-3 form-group'">
+                                    <label th:text="#{message.facility.publishedDateTime}">Published Date Time:</label>
+                                    <input type="text" class="form-control" th:field="*{publishedDateTime}" th:errorclass="has-error"/>
+                                    <span class="help-block" th:if="${#fields.hasErrors('publishedDateTime')}">
+                                        <ul>
+                                            <li th:each="err : ${#fields.errors('publishedDateTime')}" th:text="${err}"/>
+                                        </ul>
+                                    </span>
+                                </div>
+                                <div class="col-md-3 form-group"
+                                     th:class="${#fields.hasErrors('closedDateTime')} ? 'col-md-3 form-group has-error' : 'col-md-3 form-group'">
+                                    <label th:text="#{message.facility.closedDateTime}">Closed Date Time:</label>
+                                    <input type="text" class="form-control" th:field="*{closedDateTime}" th:errorclass="has-error"/>
+                                    <span class="help-block" th:if="${#fields.hasErrors('closedDateTime')}">
+                                        <ul>
+                                            <li th:each="err : ${#fields.errors('closedDateTime')}" th:text="${err}"/>
+                                        </ul>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div th:object="${address}">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h1 class="panel-title"
+                                    th:text="#{message.facility.edit.address}">Edit Address Information</h1>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-3 form-group"
+                                         th:class="${#fields.hasErrors('district')} ? 'col-md-3 form-group has-error' : 'col-md-3 form-group'">
+                                        <label th:text="#{message.address.district}">District:</label>
+                                        <input type="text" class="form-control" th:field="*{district}" th:errorclass="has-error"/>
+                                        <span class="help-block" th:if="${#fields.hasErrors('district')}">
+                                        <ul>
+                                            <li th:each="err : ${#fields.errors('district')}" th:text="${err}"/>
+                                        </ul>
+                                    </span>
+                                    </div>
+                                    <div class="col-md-3 form-group"
+                                         th:class="${#fields.hasErrors('postcode')} ? 'col-md-3 form-group has-error' : 'col-md-3 form-group'">
+                                        <label th:text="#{message.address.postcode}">Postcode:</label>
+                                        <input type="text" class="form-control" th:field="*{postcode}" th:errorclass="has-error"/>
+                                        <span class="help-block" th:if="${#fields.hasErrors('postcode')}">
+                                        <ul>
+                                            <li th:each="err : ${#fields.errors('postcode')}" th:text="${err}"/>
+                                        </ul>
+                                    </span>
+                                    </div>
+                                    <div class="col-md-3 form-group"
+                                         th:class="${#fields.hasErrors('city')} ? 'col-md-3 form-group has-error' : 'col-md-3 form-group'">
+                                        <label th:text="#{message.address.city}">City:</label>
+                                        <input type="text" class="form-control" th:field="*{city}" th:errorclass="has-error"/>
+                                        <span class="help-block" th:if="${#fields.hasErrors('city')}">
+                                        <ul>
+                                            <li th:each="err : ${#fields.errors('city')}" th:text="${err}"/>
+                                        </ul>
+                                    </span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3 form-group"
+                                         th:class="${#fields.hasErrors('street')} ? 'col-md-3 form-group has-error' : 'col-md-3 form-group'">
+                                        <label th:text="#{message.address.street}">Street:</label>
+                                        <input type="text" class="form-control" th:field="*{street}" th:errorclass="has-error"/>
+                                        <span class="help-block" th:if="${#fields.hasErrors('street')}">
+                                        <ul>
+                                            <li th:each="err : ${#fields.errors('street')}" th:text="${err}"/>
+                                        </ul>
+                                    </span>
+                                    </div>
+                                    <div class="col-md-3 form-group"
+                                         th:class="${#fields.hasErrors('facilityNumber')} ? 'col-md-3 form-group has-error' : 'col-md-3 form-group'">
+                                        <label th:text="#{message.address.facilityNumber}">House Number:</label>
+                                        <input type="text" class="form-control" th:field="*{facilityNumber}" th:errorclass="has-error"/>
+                                        <span class="help-block" th:if="${#fields.hasErrors('facilityNumber')}">
+                                        <ul>
+                                            <li th:each="err : ${#fields.errors('facilityNumber')}" th:text="${err}"/>
+                                        </ul>
+                                    </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <h1 class="panel-title"
+                                        th:text="#{message.facility.edit.client}">Edit Client</h1>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="btn btn-default" role="button"
+                                       th:text="#{message.facility.update.client}"
+                                       th:href="${'/client/' + apartment.clientId + '/update'}">Update Client</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-3 form-group">
+                                    <label th:text="#{message.facility.select.client}">Select Client:</label>
+                                    <select class="form-control" name="clientId">
+                                        <option th:each="client : ${clients}"
+                                                th:value="${client.id}"
+                                                th:selected="${client.id.equals(apartment.clientId)}"
+                                                th:text="${client.firstName + ' ' + client.lastName}">Jane Doe</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" th:text="#{message.submit.button}">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

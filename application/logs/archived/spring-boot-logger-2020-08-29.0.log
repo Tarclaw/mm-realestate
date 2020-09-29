@@ -1,0 +1,49 @@
+2020-08-29 12:27:53,911 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-08-29 12:27:53,939 INFO org.springframework.boot.StartupInfoLogger [main] Starting MmSpringbootApplicationTests on dell-Inspiron-3576 with PID 5662 (started by andrew in /home/andrew/IdeaProjects/mm-springboot/application)
+2020-08-29 12:27:53,941 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-08-29 12:27:54,564 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-29 12:27:54,656 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 86ms. Found 9 JPA repository interfaces.
+2020-08-29 12:27:55,164 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-29 12:27:55,176 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-08-29 12:27:55,338 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-08-29 12:27:55,389 INFO com.realestate.bootstrap.FacilityImageBootstrap [main] New instance of FacilityImageBootstrap created.
+2020-08-29 12:27:55,391 INFO com.realestate.bootstrap.RealEstateAgensyBootstrap [main] New instance of RealEstateAgensyBootstrap created.
+2020-08-29 12:27:55,396 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-29 12:27:55,399 INFO com.realestate.services.implementation.AddressServiceImpl [main] New instance of AddressServiceImpl created
+2020-08-29 12:27:55,415 INFO com.realestate.controllers.AddressController [main] New instance of AddressController created.
+2020-08-29 12:27:55,424 INFO com.realestate.services.implementation.ApartmentServiceImpl [main] New instance of ApartmentServiceImpl created
+2020-08-29 12:27:55,446 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-08-29 12:27:55,447 INFO com.realestate.services.implementation.FacilityServiceImpl [main] New instance of FacilityServiceImpl created
+2020-08-29 12:27:55,449 INFO com.realestate.services.implementation.ClientServiceImpl [main] New instance of ClientServiceImpl created
+2020-08-29 12:27:55,457 INFO com.realestate.controllers.ApartmentController [main] New instance of ApartmentController created.
+2020-08-29 12:27:55,460 INFO com.realestate.services.implementation.BasementServiceImpl [main] New instance of BasementServiceImpl created
+2020-08-29 12:27:55,468 INFO com.realestate.controllers.BasementController [main] New instance of BasementController created.
+2020-08-29 12:27:55,471 INFO com.realestate.services.implementation.RealEstateAgentServiceImpl [main] New instance of RealEstateAgentServiceImpl created
+2020-08-29 12:27:55,477 INFO com.realestate.controllers.ClientController [main] New instance of ClientController created.
+2020-08-29 12:27:55,483 INFO com.realestate.services.implementation.MappingServiceImpl [main] New instance of MappingServiceImpl created
+2020-08-29 12:27:55,485 INFO com.realestate.controllers.FacilityController [main] New instance of FacilityController created.
+2020-08-29 12:27:55,488 INFO com.realestate.services.implementation.GarageServiceImpl [main] New instance of GarageServiceImpl created
+2020-08-29 12:27:55,495 INFO com.realestate.controllers.GarageController [main] New instance of GarageController created.
+2020-08-29 12:27:55,498 INFO com.realestate.services.implementation.HouseServiceImpl [main] New instance of HouseServiceImpl created
+2020-08-29 12:27:55,504 INFO com.realestate.controllers.HouseController [main] New instance of HouseController created.
+2020-08-29 12:27:55,507 INFO com.realestate.controllers.RealEstateAgentController [main] New instance of RealEstateAgentController created.
+2020-08-29 12:27:55,509 INFO com.realestate.services.implementation.StorageServiceImpl [main] New instance of StorageServiceImpl created
+2020-08-29 12:27:55,515 INFO com.realestate.controllers.StorageController [main] New instance of StorageController created.
+2020-08-29 12:27:55,598 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-29 12:27:55,738 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-29 12:27:56,022 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-08-29 12:27:56,355 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-08-29 12:27:56,684 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-29 12:27:56,688 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-29 12:27:57,225 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-08-29 12:27:57,357 INFO org.springframework.boot.StartupInfoLogger [main] Started MmSpringbootApplicationTests in 3.659 seconds (JVM running for 4.315)
+2020-08-29 12:27:57,488 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-29 12:27:57,488 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-29 12:27:57,490 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] SQL Error: 90121, SQLState: 90121
+2020-08-29 12:27:57,490 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-29 12:27:57,490 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] SQL Error: 90121, SQLState: 90121
+2020-08-29 12:27:57,490 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [SpringContextShutdownHook] Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-29 12:27:57,491 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [SpringContextShutdownHook] Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-08-29 12:27:57,491 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-29 12:27:57,491 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-08-29 12:27:57,494 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.

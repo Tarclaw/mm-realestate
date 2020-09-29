@@ -1,0 +1,389 @@
+2020-09-28 15:53:29,894 INFO org.springframework.boot.StartupInfoLogger [main] Starting MmSpringbootApplicationTests on dell-Inspiron-3576 with PID 9328 (started by andrew in /home/andrew/IdeaProjects/mm-springboot/application)
+2020-09-28 15:53:29,897 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-09-28 15:53:30,523 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-28 15:53:30,616 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 85ms. Found 9 JPA repository interfaces.
+2020-09-28 15:53:31,116 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-28 15:53:31,129 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-28 15:53:31,310 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-28 15:53:31,373 INFO com.realestate.bootstrap.FacilityImageBootstrap [main] New instance of FacilityImageBootstrap created.
+2020-09-28 15:53:31,375 INFO com.realestate.bootstrap.RealEstateAgensyBootstrap [main] New instance of RealEstateAgensyBootstrap created.
+2020-09-28 15:53:31,381 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-28 15:53:31,386 INFO com.realestate.service.implementation.AddressServiceImpl [main] New instance of AddressServiceImpl created
+2020-09-28 15:53:31,423 INFO com.realestate.service.implementation.ApartmentServiceImpl [main] New instance of ApartmentServiceImpl created
+2020-09-28 15:53:31,440 INFO com.realestate.service.implementation.BasementServiceImpl [main] New instance of BasementServiceImpl created
+2020-09-28 15:53:31,453 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-28 15:53:31,457 INFO com.realestate.service.implementation.ClientServiceImpl [main] New instance of ClientServiceImpl created
+2020-09-28 15:53:31,477 INFO com.realestate.service.implementation.GarageServiceImpl [main] New instance of GarageServiceImpl created
+2020-09-28 15:53:31,493 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-28 15:53:31,500 INFO com.realestate.service.implementation.HouseServiceImpl [main] New instance of HouseServiceImpl created
+2020-09-28 15:53:31,518 INFO com.realestate.service.implementation.RealEstateAgentServiceImpl [main] New instance of RealEstateAgentServiceImpl created
+2020-09-28 15:53:31,540 INFO com.realestate.service.implementation.StorageServiceImpl [main] New instance of StorageServiceImpl created
+2020-09-28 15:53:31,553 INFO com.realestate.controllers.web.AddressController [main] New instance of AddressController created.
+2020-09-28 15:53:31,556 INFO com.realestate.controllers.web.ApartmentController [main] New instance of ApartmentController created.
+2020-09-28 15:53:31,559 INFO com.realestate.controllers.web.BasementController [main] New instance of BasementController created.
+2020-09-28 15:53:31,562 INFO com.realestate.controllers.web.ClientController [main] New instance of ClientController created.
+2020-09-28 15:53:31,567 INFO com.realestate.service.implementation.FacilityServiceImpl [main] New instance of FacilityServiceImpl created
+2020-09-28 15:53:31,572 INFO com.realestate.service.implementation.MappingServiceImpl [main] New instance of MappingServiceImpl created
+2020-09-28 15:53:31,575 INFO com.realestate.controllers.web.FacilityController [main] New instance of FacilityController created.
+2020-09-28 15:53:31,577 INFO com.realestate.controllers.web.GarageController [main] New instance of GarageController created.
+2020-09-28 15:53:31,580 INFO com.realestate.controllers.web.HouseController [main] New instance of HouseController created.
+2020-09-28 15:53:31,585 INFO com.realestate.controllers.web.RealEstateAgentController [main] New instance of RealEstateAgentController created.
+2020-09-28 15:53:31,588 INFO com.realestate.controllers.web.StorageController [main] New instance of StorageController created.
+2020-09-28 15:53:31,677 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-28 15:53:32,017 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4769537a, org.springframework.security.web.context.SecurityContextPersistenceFilter@76208b80, org.springframework.security.web.header.HeaderWriterFilter@138a952f, org.springframework.security.web.authentication.logout.LogoutFilter@31dd0e2e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@37a0fc8c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f0381f0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b43b101, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@9a37591, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4504a4ed, org.springframework.security.web.session.SessionManagementFilter@272c5abd, org.springframework.security.web.access.ExceptionTranslationFilter@345540f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@fe09374]
+2020-09-28 15:53:32,494 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-09-28 15:53:32,508 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-28 15:53:32,516 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 15:53:32,815 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-09-28 15:53:33,506 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-09-28 15:53:33,644 INFO org.springframework.boot.StartupInfoLogger [main] Started MmSpringbootApplicationTests in 4.08 seconds (JVM running for 7.531)
+2020-09-28 15:53:33,684 INFO com.realestate.controllers.web.FacilityController [main] New instance of FacilityController created.
+2020-09-28 15:53:33,694 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:33,694 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:33,694 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:33,698 INFO com.realestate.controllers.web.FacilityController [main] New instance of FacilityController created.
+2020-09-28 15:53:33,707 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:33,707 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:33,707 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:33,713 INFO com.realestate.controllers.web.RealEstateAgentController [main] New instance of RealEstateAgentController created.
+2020-09-28 15:53:33,723 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:33,723 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:33,724 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 1 ms
+2020-09-28 15:53:33,753 WARN com.realestate.controllers.web.RealEstateAgentController [main] Field error in object 'realEstateAgent' on field 'login': rejected value [null]; codes [NotNull.realEstateAgent.login,NotNull.login,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [realEstateAgent.login,login]; arguments []; default message [login]]; default message [Please enter value]
+2020-09-28 15:53:33,753 WARN com.realestate.controllers.web.RealEstateAgentController [main] Field error in object 'realEstateAgent' on field 'firstName': rejected value [null]; codes [NotNull.realEstateAgent.firstName,NotNull.firstName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [realEstateAgent.firstName,firstName]; arguments []; default message [firstName]]; default message [Please enter value]
+2020-09-28 15:53:33,753 WARN com.realestate.controllers.web.RealEstateAgentController [main] Field error in object 'realEstateAgent' on field 'password': rejected value [null]; codes [NotNull.realEstateAgent.password,NotNull.password,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [realEstateAgent.password,password]; arguments []; default message [password]]; default message [Please enter value]
+2020-09-28 15:53:33,754 WARN com.realestate.controllers.web.RealEstateAgentController [main] Field error in object 'realEstateAgent' on field 'lastName': rejected value [null]; codes [NotNull.realEstateAgent.lastName,NotNull.lastName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [realEstateAgent.lastName,lastName]; arguments []; default message [lastName]]; default message [Please enter value]
+2020-09-28 15:53:33,754 WARN com.realestate.controllers.web.RealEstateAgentController [main] Field error in object 'realEstateAgent' on field 'salary': rejected value [null]; codes [NotNull.realEstateAgent.salary,NotNull.salary,NotNull.java.math.BigInteger,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [realEstateAgent.salary,salary]; arguments []; default message [salary]]; default message [Common, everybody must have something to eat]
+2020-09-28 15:53:33,754 WARN com.realestate.controllers.web.RealEstateAgentController [main] Field error in object 'contact' on field 'mobileNumber': rejected value [null]; codes [NotNull.contact.mobileNumber,NotNull.mobileNumber,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [contact.mobileNumber,mobileNumber]; arguments []; default message [mobileNumber]]; default message [Please enter value]
+2020-09-28 15:53:33,754 WARN com.realestate.controllers.web.RealEstateAgentController [main] Field error in object 'contact' on field 'skype': rejected value [null]; codes [NotNull.contact.skype,NotNull.skype,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [contact.skype,skype]; arguments []; default message [skype]]; default message [Please enter value]
+2020-09-28 15:53:33,756 INFO com.realestate.controllers.web.RealEstateAgentController [main] New instance of RealEstateAgentController created.
+2020-09-28 15:53:33,765 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:33,765 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:33,766 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 1 ms
+2020-09-28 15:53:33,770 INFO com.realestate.controllers.web.RealEstateAgentController [main] New instance of RealEstateAgentController created.
+2020-09-28 15:53:33,779 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:33,780 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:33,780 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:33,795 INFO com.realestate.controllers.web.RealEstateAgentController [main] New instance of RealEstateAgentController created.
+2020-09-28 15:53:33,804 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:33,804 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:33,804 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:33,808 INFO com.realestate.controllers.web.RealEstateAgentController [main] New instance of RealEstateAgentController created.
+2020-09-28 15:53:33,819 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:33,819 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:33,819 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:33,822 INFO com.realestate.controllers.web.RealEstateAgentController [main] New instance of RealEstateAgentController created.
+2020-09-28 15:53:33,832 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:33,832 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:33,833 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 1 ms
+2020-09-28 15:53:33,851 INFO com.realestate.controllers.web.RealEstateAgentController [main] New instance of RealEstateAgentController created.
+2020-09-28 15:53:33,863 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:33,863 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:33,863 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:33,869 INFO com.realestate.controllers.web.RealEstateAgentController [main] New instance of RealEstateAgentController created.
+2020-09-28 15:53:33,879 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:33,879 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:33,880 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 1 ms
+2020-09-28 15:53:33,883 INFO com.realestate.controllers.web.RealEstateAgentController [main] New instance of RealEstateAgentController created.
+2020-09-28 15:53:33,895 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:33,895 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:33,895 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:33,915 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:33,916 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:33,916 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:33,997 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:33,997 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:33,997 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,009 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,009 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,009 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,029 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,030 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,030 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,086 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,086 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,086 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,103 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,103 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,103 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,122 INFO com.realestate.controllers.web.GarageController [main] New instance of GarageController created.
+2020-09-28 15:53:34,131 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,132 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,132 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,138 INFO com.realestate.controllers.web.GarageController [main] New instance of GarageController created.
+2020-09-28 15:53:34,151 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,151 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,151 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,155 INFO com.realestate.controllers.web.GarageController [main] New instance of GarageController created.
+2020-09-28 15:53:34,171 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,172 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,172 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,218 WARN com.realestate.controllers.web.GarageController [main] Field error in object 'garage' on field 'description': rejected value [null]; codes [NotNull.garage.description,NotNull.description,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [garage.description,description]; arguments []; default message [description]]; default message [Please enter value]
+2020-09-28 15:53:34,218 WARN com.realestate.controllers.web.GarageController [main] Field error in object 'garage' on field 'price': rejected value [null]; codes [NotNull.garage.price,NotNull.price,NotNull.java.math.BigInteger,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [garage.price,price]; arguments []; default message [price]]; default message [Please enter value]
+2020-09-28 15:53:34,218 WARN com.realestate.controllers.web.GarageController [main] Field error in object 'garage' on field 'monthRent': rejected value [null]; codes [NotNull.garage.monthRent,NotNull.monthRent,NotNull.java.math.BigInteger,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [garage.monthRent,monthRent]; arguments []; default message [monthRent]]; default message [Please enter value]
+2020-09-28 15:53:34,218 WARN com.realestate.controllers.web.GarageController [main] Field error in object 'garage' on field 'numberOfRooms': rejected value [null]; codes [NotNull.garage.numberOfRooms,NotNull.numberOfRooms,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [garage.numberOfRooms,numberOfRooms]; arguments []; default message [numberOfRooms]]; default message [Please enter value]
+2020-09-28 15:53:34,218 WARN com.realestate.controllers.web.GarageController [main] Field error in object 'garage' on field 'totalArea': rejected value [null]; codes [NotNull.garage.totalArea,NotNull.totalArea,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [garage.totalArea,totalArea]; arguments []; default message [totalArea]]; default message [Please enter value]
+2020-09-28 15:53:34,219 WARN com.realestate.controllers.web.GarageController [main] Field error in object 'address' on field 'city': rejected value [null]; codes [NotNull.address.city,NotNull.city,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.city,city]; arguments []; default message [city]]; default message [Please enter value]
+2020-09-28 15:53:34,219 WARN com.realestate.controllers.web.GarageController [main] Field error in object 'address' on field 'postcode': rejected value [null]; codes [NotNull.address.postcode,NotNull.postcode,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.postcode,postcode]; arguments []; default message [postcode]]; default message [Please enter value]
+2020-09-28 15:53:34,219 WARN com.realestate.controllers.web.GarageController [main] Field error in object 'address' on field 'district': rejected value [null]; codes [NotNull.address.district,NotNull.district,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.district,district]; arguments []; default message [district]]; default message [Please enter value]
+2020-09-28 15:53:34,219 WARN com.realestate.controllers.web.GarageController [main] Field error in object 'address' on field 'street': rejected value [null]; codes [NotNull.address.street,NotNull.street,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.street,street]; arguments []; default message [street]]; default message [Please enter value]
+2020-09-28 15:53:34,219 WARN com.realestate.controllers.web.GarageController [main] Field error in object 'address' on field 'facilityNumber': rejected value [null]; codes [NotNull.address.facilityNumber,NotNull.facilityNumber,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.facilityNumber,facilityNumber]; arguments []; default message [facilityNumber]]; default message [Please enter value]
+2020-09-28 15:53:34,222 INFO com.realestate.controllers.web.GarageController [main] New instance of GarageController created.
+2020-09-28 15:53:34,234 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,235 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,235 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,239 INFO com.realestate.controllers.web.GarageController [main] New instance of GarageController created.
+2020-09-28 15:53:34,248 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,249 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,249 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,259 INFO com.realestate.controllers.web.GarageController [main] New instance of GarageController created.
+2020-09-28 15:53:34,268 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,269 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,269 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,298 INFO com.realestate.controllers.web.GarageController [main] New instance of GarageController created.
+2020-09-28 15:53:34,316 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,316 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,317 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 1 ms
+2020-09-28 15:53:34,323 INFO com.realestate.controllers.web.GarageController [main] New instance of GarageController created.
+2020-09-28 15:53:34,333 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,333 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,334 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 1 ms
+2020-09-28 15:53:34,342 INFO com.realestate.controllers.web.GarageController [main] New instance of GarageController created.
+2020-09-28 15:53:34,361 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,361 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,362 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,366 INFO com.realestate.controllers.web.GarageController [main] New instance of GarageController created.
+2020-09-28 15:53:34,382 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,382 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,382 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,386 INFO com.realestate.controllers.web.GarageController [main] New instance of GarageController created.
+2020-09-28 15:53:34,404 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,404 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,405 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,410 INFO com.realestate.controllers.web.GarageController [main] New instance of GarageController created.
+2020-09-28 15:53:34,422 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,422 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,422 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,451 INFO com.realestate.controllers.web.BasementController [main] New instance of BasementController created.
+2020-09-28 15:53:34,459 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,459 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,460 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,464 INFO com.realestate.controllers.web.BasementController [main] New instance of BasementController created.
+2020-09-28 15:53:34,473 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,474 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,474 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,478 INFO com.realestate.controllers.web.BasementController [main] New instance of BasementController created.
+2020-09-28 15:53:34,488 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,488 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,489 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,493 INFO com.realestate.controllers.web.BasementController [main] New instance of BasementController created.
+2020-09-28 15:53:34,503 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,503 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,504 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,510 INFO com.realestate.controllers.web.BasementController [main] New instance of BasementController created.
+2020-09-28 15:53:34,523 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,524 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,524 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,534 INFO com.realestate.controllers.web.BasementController [main] New instance of BasementController created.
+2020-09-28 15:53:34,545 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,545 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,546 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,550 INFO com.realestate.controllers.web.BasementController [main] New instance of BasementController created.
+2020-09-28 15:53:34,561 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,561 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,561 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,564 INFO com.realestate.controllers.web.BasementController [main] New instance of BasementController created.
+2020-09-28 15:53:34,575 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,575 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,575 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,597 INFO com.realestate.controllers.web.BasementController [main] New instance of BasementController created.
+2020-09-28 15:53:34,607 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,608 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,608 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,612 INFO com.realestate.controllers.web.BasementController [main] New instance of BasementController created.
+2020-09-28 15:53:34,623 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,623 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,624 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 1 ms
+2020-09-28 15:53:34,627 INFO com.realestate.controllers.web.BasementController [main] New instance of BasementController created.
+2020-09-28 15:53:34,636 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,636 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,636 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,663 INFO com.realestate.controllers.web.HouseController [main] New instance of HouseController created.
+2020-09-28 15:53:34,671 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,671 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,672 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,674 INFO com.realestate.controllers.web.HouseController [main] New instance of HouseController created.
+2020-09-28 15:53:34,687 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,687 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,688 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,691 INFO com.realestate.controllers.web.HouseController [main] New instance of HouseController created.
+2020-09-28 15:53:34,704 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,704 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,704 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,725 WARN com.realestate.controllers.web.HouseController [main] Field error in object 'house' on field 'totalArea': rejected value [null]; codes [NotNull.house.totalArea,NotNull.totalArea,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [house.totalArea,totalArea]; arguments []; default message [totalArea]]; default message [Please enter value]
+2020-09-28 15:53:34,726 WARN com.realestate.controllers.web.HouseController [main] Field error in object 'house' on field 'description': rejected value [null]; codes [NotNull.house.description,NotNull.description,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [house.description,description]; arguments []; default message [description]]; default message [Please enter value]
+2020-09-28 15:53:34,726 WARN com.realestate.controllers.web.HouseController [main] Field error in object 'house' on field 'price': rejected value [null]; codes [NotNull.house.price,NotNull.price,NotNull.java.math.BigInteger,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [house.price,price]; arguments []; default message [price]]; default message [Please enter value]
+2020-09-28 15:53:34,726 WARN com.realestate.controllers.web.HouseController [main] Field error in object 'house' on field 'numberOfRooms': rejected value [null]; codes [NotNull.house.numberOfRooms,NotNull.numberOfRooms,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [house.numberOfRooms,numberOfRooms]; arguments []; default message [numberOfRooms]]; default message [Please enter value]
+2020-09-28 15:53:34,726 WARN com.realestate.controllers.web.HouseController [main] Field error in object 'house' on field 'monthRent': rejected value [null]; codes [NotNull.house.monthRent,NotNull.monthRent,NotNull.java.math.BigInteger,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [house.monthRent,monthRent]; arguments []; default message [monthRent]]; default message [Please enter value]
+2020-09-28 15:53:34,726 WARN com.realestate.controllers.web.HouseController [main] Field error in object 'address' on field 'street': rejected value [null]; codes [NotNull.address.street,NotNull.street,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.street,street]; arguments []; default message [street]]; default message [Please enter value]
+2020-09-28 15:53:34,726 WARN com.realestate.controllers.web.HouseController [main] Field error in object 'address' on field 'postcode': rejected value [null]; codes [NotNull.address.postcode,NotNull.postcode,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.postcode,postcode]; arguments []; default message [postcode]]; default message [Please enter value]
+2020-09-28 15:53:34,726 WARN com.realestate.controllers.web.HouseController [main] Field error in object 'address' on field 'facilityNumber': rejected value [null]; codes [NotNull.address.facilityNumber,NotNull.facilityNumber,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.facilityNumber,facilityNumber]; arguments []; default message [facilityNumber]]; default message [Please enter value]
+2020-09-28 15:53:34,726 WARN com.realestate.controllers.web.HouseController [main] Field error in object 'address' on field 'district': rejected value [null]; codes [NotNull.address.district,NotNull.district,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.district,district]; arguments []; default message [district]]; default message [Please enter value]
+2020-09-28 15:53:34,727 WARN com.realestate.controllers.web.HouseController [main] Field error in object 'address' on field 'city': rejected value [null]; codes [NotNull.address.city,NotNull.city,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.city,city]; arguments []; default message [city]]; default message [Please enter value]
+2020-09-28 15:53:34,728 INFO com.realestate.controllers.web.HouseController [main] New instance of HouseController created.
+2020-09-28 15:53:34,736 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,737 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,739 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,742 INFO com.realestate.controllers.web.HouseController [main] New instance of HouseController created.
+2020-09-28 15:53:34,751 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,751 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,751 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,756 INFO com.realestate.controllers.web.HouseController [main] New instance of HouseController created.
+2020-09-28 15:53:34,765 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,766 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,766 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,770 INFO com.realestate.controllers.web.HouseController [main] New instance of HouseController created.
+2020-09-28 15:53:34,780 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,780 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,780 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,784 INFO com.realestate.controllers.web.HouseController [main] New instance of HouseController created.
+2020-09-28 15:53:34,792 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,793 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,793 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,810 INFO com.realestate.controllers.web.HouseController [main] New instance of HouseController created.
+2020-09-28 15:53:34,818 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,819 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,819 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,823 INFO com.realestate.controllers.web.HouseController [main] New instance of HouseController created.
+2020-09-28 15:53:34,831 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,832 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,832 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,836 INFO com.realestate.controllers.web.HouseController [main] New instance of HouseController created.
+2020-09-28 15:53:34,845 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,846 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,846 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,849 INFO com.realestate.controllers.web.HouseController [main] New instance of HouseController created.
+2020-09-28 15:53:34,859 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,859 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,859 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,876 INFO com.realestate.controllers.web.StorageController [main] New instance of StorageController created.
+2020-09-28 15:53:34,886 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,886 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,886 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,891 INFO com.realestate.controllers.web.StorageController [main] New instance of StorageController created.
+2020-09-28 15:53:34,901 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,902 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,902 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,907 INFO com.realestate.controllers.web.StorageController [main] New instance of StorageController created.
+2020-09-28 15:53:34,917 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,917 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,917 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,922 INFO com.realestate.controllers.web.StorageController [main] New instance of StorageController created.
+2020-09-28 15:53:34,934 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,934 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,934 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,954 WARN com.realestate.controllers.web.StorageController [main] Field error in object 'storage' on field 'totalArea': rejected value [null]; codes [NotNull.storage.totalArea,NotNull.totalArea,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [storage.totalArea,totalArea]; arguments []; default message [totalArea]]; default message [Please enter value]
+2020-09-28 15:53:34,955 WARN com.realestate.controllers.web.StorageController [main] Field error in object 'storage' on field 'description': rejected value [null]; codes [NotNull.storage.description,NotNull.description,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [storage.description,description]; arguments []; default message [description]]; default message [Please enter value]
+2020-09-28 15:53:34,955 WARN com.realestate.controllers.web.StorageController [main] Field error in object 'storage' on field 'price': rejected value [null]; codes [NotNull.storage.price,NotNull.price,NotNull.java.math.BigInteger,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [storage.price,price]; arguments []; default message [price]]; default message [Please enter value]
+2020-09-28 15:53:34,955 WARN com.realestate.controllers.web.StorageController [main] Field error in object 'storage' on field 'numberOfRooms': rejected value [null]; codes [NotNull.storage.numberOfRooms,NotNull.numberOfRooms,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [storage.numberOfRooms,numberOfRooms]; arguments []; default message [numberOfRooms]]; default message [Please enter value]
+2020-09-28 15:53:34,955 WARN com.realestate.controllers.web.StorageController [main] Field error in object 'storage' on field 'monthRent': rejected value [null]; codes [NotNull.storage.monthRent,NotNull.monthRent,NotNull.java.math.BigInteger,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [storage.monthRent,monthRent]; arguments []; default message [monthRent]]; default message [Please enter value]
+2020-09-28 15:53:34,955 WARN com.realestate.controllers.web.StorageController [main] Field error in object 'address' on field 'city': rejected value [null]; codes [NotNull.address.city,NotNull.city,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.city,city]; arguments []; default message [city]]; default message [Please enter value]
+2020-09-28 15:53:34,956 WARN com.realestate.controllers.web.StorageController [main] Field error in object 'address' on field 'postcode': rejected value [null]; codes [NotNull.address.postcode,NotNull.postcode,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.postcode,postcode]; arguments []; default message [postcode]]; default message [Please enter value]
+2020-09-28 15:53:34,956 WARN com.realestate.controllers.web.StorageController [main] Field error in object 'address' on field 'facilityNumber': rejected value [null]; codes [NotNull.address.facilityNumber,NotNull.facilityNumber,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.facilityNumber,facilityNumber]; arguments []; default message [facilityNumber]]; default message [Please enter value]
+2020-09-28 15:53:34,956 WARN com.realestate.controllers.web.StorageController [main] Field error in object 'address' on field 'street': rejected value [null]; codes [NotNull.address.street,NotNull.street,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.street,street]; arguments []; default message [street]]; default message [Please enter value]
+2020-09-28 15:53:34,956 WARN com.realestate.controllers.web.StorageController [main] Field error in object 'address' on field 'district': rejected value [null]; codes [NotNull.address.district,NotNull.district,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.district,district]; arguments []; default message [district]]; default message [Please enter value]
+2020-09-28 15:53:34,958 INFO com.realestate.controllers.web.StorageController [main] New instance of StorageController created.
+2020-09-28 15:53:34,968 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,969 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,969 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,973 INFO com.realestate.controllers.web.StorageController [main] New instance of StorageController created.
+2020-09-28 15:53:34,984 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,984 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,984 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:34,988 INFO com.realestate.controllers.web.StorageController [main] New instance of StorageController created.
+2020-09-28 15:53:34,998 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:34,998 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:34,999 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:35,005 INFO com.realestate.controllers.web.StorageController [main] New instance of StorageController created.
+2020-09-28 15:53:35,020 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,020 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,020 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:35,026 INFO com.realestate.controllers.web.StorageController [main] New instance of StorageController created.
+2020-09-28 15:53:35,036 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,036 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,037 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 1 ms
+2020-09-28 15:53:35,055 INFO com.realestate.controllers.web.StorageController [main] New instance of StorageController created.
+2020-09-28 15:53:35,063 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,064 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,064 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:35,069 INFO com.realestate.controllers.web.StorageController [main] New instance of StorageController created.
+2020-09-28 15:53:35,114 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,114 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,114 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:35,118 INFO com.realestate.controllers.web.StorageController [main] New instance of StorageController created.
+2020-09-28 15:53:35,126 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,126 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,126 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:35,139 INFO com.realestate.controllers.web.ApartmentController [main] New instance of ApartmentController created.
+2020-09-28 15:53:35,146 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,146 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,147 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:35,149 INFO com.realestate.controllers.web.ApartmentController [main] New instance of ApartmentController created.
+2020-09-28 15:53:35,158 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,158 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,158 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:35,162 INFO com.realestate.controllers.web.ApartmentController [main] New instance of ApartmentController created.
+2020-09-28 15:53:35,170 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,171 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,171 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:35,175 INFO com.realestate.controllers.web.ApartmentController [main] New instance of ApartmentController created.
+2020-09-28 15:53:35,183 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,183 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,184 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 1 ms
+2020-09-28 15:53:35,187 INFO com.realestate.controllers.web.ApartmentController [main] New instance of ApartmentController created.
+2020-09-28 15:53:35,194 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,195 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,195 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:35,205 INFO com.realestate.controllers.web.ApartmentController [main] New instance of ApartmentController created.
+2020-09-28 15:53:35,213 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,213 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,213 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:35,229 WARN com.realestate.controllers.web.ApartmentController [main] Field error in object 'apartment' on field 'monthRent': rejected value [null]; codes [NotNull.apartment.monthRent,NotNull.monthRent,NotNull.java.math.BigInteger,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [apartment.monthRent,monthRent]; arguments []; default message [monthRent]]; default message [Please enter value]
+2020-09-28 15:53:35,230 WARN com.realestate.controllers.web.ApartmentController [main] Field error in object 'apartment' on field 'numberOfRooms': rejected value [null]; codes [NotNull.apartment.numberOfRooms,NotNull.numberOfRooms,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [apartment.numberOfRooms,numberOfRooms]; arguments []; default message [numberOfRooms]]; default message [Please enter value]
+2020-09-28 15:53:35,230 WARN com.realestate.controllers.web.ApartmentController [main] Field error in object 'apartment' on field 'totalArea': rejected value [null]; codes [NotNull.apartment.totalArea,NotNull.totalArea,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [apartment.totalArea,totalArea]; arguments []; default message [totalArea]]; default message [Please enter value]
+2020-09-28 15:53:35,230 WARN com.realestate.controllers.web.ApartmentController [main] Field error in object 'apartment' on field 'description': rejected value [null]; codes [NotNull.apartment.description,NotNull.description,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [apartment.description,description]; arguments []; default message [description]]; default message [Please enter value]
+2020-09-28 15:53:35,230 WARN com.realestate.controllers.web.ApartmentController [main] Field error in object 'apartment' on field 'price': rejected value [null]; codes [NotNull.apartment.price,NotNull.price,NotNull.java.math.BigInteger,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [apartment.price,price]; arguments []; default message [price]]; default message [Please enter value]
+2020-09-28 15:53:35,230 WARN com.realestate.controllers.web.ApartmentController [main] Field error in object 'address' on field 'postcode': rejected value [null]; codes [NotNull.address.postcode,NotNull.postcode,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.postcode,postcode]; arguments []; default message [postcode]]; default message [Please enter value]
+2020-09-28 15:53:35,230 WARN com.realestate.controllers.web.ApartmentController [main] Field error in object 'address' on field 'facilityNumber': rejected value [null]; codes [NotNull.address.facilityNumber,NotNull.facilityNumber,NotNull.java.lang.Integer,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.facilityNumber,facilityNumber]; arguments []; default message [facilityNumber]]; default message [Please enter value]
+2020-09-28 15:53:35,230 WARN com.realestate.controllers.web.ApartmentController [main] Field error in object 'address' on field 'street': rejected value [null]; codes [NotNull.address.street,NotNull.street,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.street,street]; arguments []; default message [street]]; default message [Please enter value]
+2020-09-28 15:53:35,230 WARN com.realestate.controllers.web.ApartmentController [main] Field error in object 'address' on field 'district': rejected value [null]; codes [NotNull.address.district,NotNull.district,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.district,district]; arguments []; default message [district]]; default message [Please enter value]
+2020-09-28 15:53:35,230 WARN com.realestate.controllers.web.ApartmentController [main] Field error in object 'address' on field 'city': rejected value [null]; codes [NotNull.address.city,NotNull.city,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [address.city,city]; arguments []; default message [city]]; default message [Please enter value]
+2020-09-28 15:53:35,232 INFO com.realestate.controllers.web.ApartmentController [main] New instance of ApartmentController created.
+2020-09-28 15:53:35,240 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,240 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,240 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:35,244 INFO com.realestate.controllers.web.ApartmentController [main] New instance of ApartmentController created.
+2020-09-28 15:53:35,251 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,251 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,251 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:35,253 INFO com.realestate.controllers.web.ApartmentController [main] New instance of ApartmentController created.
+2020-09-28 15:53:35,258 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,259 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,259 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:35,262 INFO com.realestate.controllers.web.ApartmentController [main] New instance of ApartmentController created.
+2020-09-28 15:53:35,269 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,269 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,269 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:35,271 INFO com.realestate.controllers.web.ApartmentController [main] New instance of ApartmentController created.
+2020-09-28 15:53:35,277 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,277 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,277 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:35,291 INFO com.realestate.controllers.web.ApartmentController [main] New instance of ApartmentController created.
+2020-09-28 15:53:35,295 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-09-28 15:53:35,296 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2020-09-28 15:53:35,296 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 0 ms
+2020-09-28 15:53:35,312 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 15:53:35,312 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-09-28 15:53:35,320 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-28 15:53:35,320 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-28 15:53:35,329 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.

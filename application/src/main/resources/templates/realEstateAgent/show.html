@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Real Estate Agency</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"
+          th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}">
+
+    <script src="/webjars/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous" th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}"></script>
+</head>
+
+<body>
+
+<div class="container-fluid" style="margin-top: 20px">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="pannel-group">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h1 class="panel-title"
+                            th:text="#{message.agent}">Agent</h1>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5 th:text="#{message.agent.firstName}">First Name:</h5>
+                            </div>
+                            <div class="col-md-3">
+                                <p th:text="${realEstateAgent.firstName}">UNKNOWN</p>
+                            </div>
+                            <div class="col-md-3">
+                                <h5 th:text="#{message.agent.lastName}">Last Name:</h5>
+                            </div>
+                            <div class="col-md-3">
+                                <p th:text="${realEstateAgent.lastName}">UNKNOWN</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5 th:text="#{message.agent.login}">Login:</h5>
+                            </div>
+                            <div class="col-md-3">
+                                <p th:text="${realEstateAgent.login}">UNKNOWN</p>
+                            </div>
+                            <div class="col-md-3">
+                                <h5 th:text="#{message.agent.password}">Password:</h5>
+                            </div>
+                            <div class="col-md-3">
+                                <p th:text="${realEstateAgent.password}">UNKNOWN</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5 th:text="#{message.agent.salary}">Salary:</h5>
+                            </div>
+                            <div class="col-md-3">
+                                <p th:text="${realEstateAgent.salary}">UNKNOWN</p>
+                            </div>
+                            <div class="col-md-3">
+                                <h5 th:text="#{message.agent.mobileNumber}">Phone:</h5>
+                            </div>
+                            <div class="col-md-3">
+                                <p th:text="${realEstateAgent.contact.mobileNumber}">UNKNOWN</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5 th:text="#{message.agent.skype}">Skype:</h5>
+                            </div>
+                            <div class="col-md-3">
+                                <p th:text="${realEstateAgent.contact.skype}">UNKNOWN</p>
+                            </div>
+                            <div class="col-md-3">
+                                <h5 th:text="#{message.agent.email}">Email:</h5>
+                            </div>
+                            <div class="col-md-3">
+                                <p th:text="${realEstateAgent.contact.email}">UNKNOWN</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5 th:text="#{message.agent.hiredDate}">Hired Date:</h5>
+                            </div>
+                            <div class="col-md-3">
+                                <p th:text="${realEstateAgent.hiredDate}">UNKNOWN</p>
+                            </div>
+                            <div class="col-md-3">
+                                <h5 th:text="#{message.agent.quitDate}">Quit Date:</h5>
+                            </div>
+                            <div class="col-md-3">
+                                <p th:text="${realEstateAgent.quitDate}">UNKNOWN</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-md-11 ">
+                                <h1 class="panel-title"
+                                    th:text="#{message.clients}">Clients</h1>
+                            </div>
+                            <div class="col-md-1">
+                                <a class="btn btn-default" href="#" role="button"
+                                   th:href="@{'/clients'}"
+                                   th:text="#{message.view}">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul>
+                                    <li th:each="client : ${realEstateAgent.clients}"
+                                        th:text="${client.firstName + ' ' + client.lastName}">
+                                        Aid Seeker
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
